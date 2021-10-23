@@ -12,8 +12,10 @@ def main():
 			break
 
 		height, width, channels = frame.shape
-		frame_crop = np.concatenate ( (np.concatenate( (frame[0:int(height/3), 0:int(width/3)], frame[0:int(height/3), -int(width/3):]),axis=1),
-									   np.concatenate( (frame[-int(height/3):, 0:int(width/3)], frame[-int(height/3):, -int(width/3):]),axis=1)), axis=0)
+		# frame_crop = np.concatenate ( (np.concatenate( (frame[0:int(height/3), 0:int(width/3)], frame[0:int(height/3), -int(width/3):]),axis=1),
+		# 							   np.concatenate( (frame[-int(height/3):, 0:int(width/3)], frame[-int(height/3):, -int(width/3):]),axis=1)), axis=0)
+		frame_crop = frame[-int(height/3):, 0:int(width/2)]
+
 
 		frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_BGR2GRAY)
 		frame_gray = cv2.GaussianBlur(frame_gray, (5, 5), 0)
@@ -21,7 +23,7 @@ def main():
 		contours_list, hierarchy = cv2.findContours(frame_thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 		for contour in contours_list:
 			x, y, w, h = cv2.boundingRect(contour)
-			if (2*h<w<4*h) and (8000<w*h<60000):
+			if (2*h<w<4*h) and (10000<w*h<60000):
 				frame_crop = cv2.drawContours(frame_crop, contour, -1, (0, 255, 0), 2)
 
 
