@@ -1,4 +1,5 @@
 data/*.mp4
+data/object_detection/
 .idea/
 .idea/*
 .idea

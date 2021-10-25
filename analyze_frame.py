@@ -1,10 +1,10 @@
-import cv2
+import cv2.cv2 as cv2
 import numpy as np
 
 
 def main():
 
-	frame = cv2.imread('data/screenshot_01.png')
+	frame = cv2.imread('data/screenshot_00.png')
 	height, width, channels = frame.shape
 	frame_crop = np.concatenate ( (np.concatenate( (frame[0:int(height/3), 0:int(width/3)], frame[0:int(height/3), -int(width/3):]),axis=1),
 								   np.concatenate( (frame[-int(height/3):, 0:int(width/3)], frame[-int(height/3):, -int(width/3):]),axis=1)), axis=0)
