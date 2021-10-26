@@ -1,49 +1,73 @@
 import cv2.cv2 as cv2
 import pytesseract
 import numpy  as np
+import gluoncv as gcv
+import mxnet as mx
 
 def main():
 
 	cap = cv2.VideoCapture('data/top-100-shots-rallies-2018-atp-season.mp4')
+	# try:
+	# 	ctx = [mx.gpu(1)]
+	# except:
+	# 	ctx = [mx.cpu()]
+	ctx = mx.cpu()
+	## object detection stuff
+	custom_classes = ['box_score']
+	net = gcv.model_zoo.get_model('ssd_512_mobilenet1.0_custom', classes=custom_classes, pretrained_base=False, ctx=ctx)
+	net.load_parameters("data/object_detection/box_score_ssd_512_mobilenet1.0_coco_run_00/ep_035.params", ctx=ctx)	### GREAT!!!
+	net.hybridize()
+
 
 	frame_counter = 0
 	while True:
-		ret, frame = cap.read()
+		ret, frame_np_orig = cap.read()
 		key = cv2.waitKey(1)
 		if (not ret) or key == ord('q'):
 			break
 		else:
-			height, width, channels = frame.shape
-
+			height, width, channels = frame_np_orig.shape
 
 			if frame_counter % 10 == 0:
-				## object detection for scoreboard location here
-				frame_crop = frame[-int(height/3):, 0:int(width/3)]
 
-				# Adding custom options
-				# custom_config = r'--oem 3 --psm 6'
-				custom_config = r'--oem 3 --psm 4'
+				# Image pre-processing
+				frame_nd_orig = mx.nd.array(cv2.cvtColor(frame_np_orig, cv2.COLOR_BGR2RGB)).astype('uint8')
+				frame_nd_new, frame_np_new = gcv.data.transforms.presets.ssd.transform_test(frame_nd_orig, short=512, max_size=700)
+				## detection
+				frame_nd_new = frame_nd_new.as_in_context(ctx)
+				class_IDs, scores, bboxes = net(frame_nd_new)
+				frame_np_new = gcv.utils.viz.cv_plot_bbox(frame_np_new, bboxes[0], scores[0], class_IDs[0], thresh=0.5, class_names=net.classes)
+				gcv.utils.viz.cv_plot_image(frame_np_new)
 
-				frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
-				ret, frame_thresh = cv2.threshold(frame_gray,128,255,cv2.THRESH_BINARY)
-				contours_list, hierarchy = cv2.findContours(frame_thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
-				# frame_thresh_orig = frame_thresh.copy()
-				for cnt in contours_list:
-					x, y, w, h = cv2.boundingRect(cnt)
-					approx = cv2.approxPolyDP(cnt, 0.01 * cv2.arcLength(cnt, True), True)
-					if len(approx) == 4 and (w*h>50):
-						frame = cv2.drawContours(frame, cnt, -1, (0,255,0), 1)
-						# frame = cv2.circle(frame, (x,y), 2, (0,255,0),3)
-						# frame = cv2.circle(frame, (x+w,y+h), 2, (0,255,0),3)
-						frame_thresh[y:y+h, x:x+w] = cv2.bitwise_not(frame_thresh[y:y+h, x:x+w])
-						frame_thresh = cv2.bitwise_not(frame_thresh)
-				kernel = np.ones((2, 2), np.uint8)
-				frame_thresh = cv2.erode(frame_thresh, kernel, iterations=1)
-				frame_thresh = cv2.dilate(frame_thresh, kernel, iterations=1)
-				result = pytesseract.image_to_string(frame_thresh, config=custom_config)
-				print(result)
-			# cv2.imshow('thresh_orig', frame_thresh_orig)
-			cv2.imshow('orig', frame)
+
+			# if frame_counter % 10 == 0:
+			# 	## object detection for scoreboard location here
+			# 	frame_crop = frame[-int(height/3):, 0:int(width/3)]
+			#
+			# 	# Adding custom options
+			# 	# custom_config = r'--oem 3 --psm 6'
+			# 	custom_config = r'--oem 3 --psm 4'
+			#
+			# 	frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
+			# 	ret, frame_thresh = cv2.threshold(frame_gray,128,255,cv2.THRESH_BINARY)
+			# 	contours_list, hierarchy = cv2.findContours(frame_thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+			# 	# frame_thresh_orig = frame_thresh.copy()
+			# 	for cnt in contours_list:
+			# 		x, y, w, h = cv2.boundingRect(cnt)
+			# 		approx = cv2.approxPolyDP(cnt, 0.01 * cv2.arcLength(cnt, True), True)
+			# 		if len(approx) == 4 and (w*h>50):
+			# 			frame = cv2.drawContours(frame, cnt, -1, (0,255,0), 1)
+			# 			# frame = cv2.circle(frame, (x,y), 2, (0,255,0),3)
+			# 			# frame = cv2.circle(frame, (x+w,y+h), 2, (0,255,0),3)
+			# 			frame_thresh[y:y+h, x:x+w] = cv2.bitwise_not(frame_thresh[y:y+h, x:x+w])
+			# 			frame_thresh = cv2.bitwise_not(frame_thresh)
+			# 	kernel = np.ones((2, 2), np.uint8)
+			# 	frame_thresh = cv2.erode(frame_thresh, kernel, iterations=1)
+			# 	frame_thresh = cv2.dilate(frame_thresh, kernel, iterations=1)
+			# 	result = pytesseract.image_to_string(frame_thresh, config=custom_config)
+			# 	print(result)
+			# # cv2.imshow('thresh_orig', frame_thresh_orig)
+			# cv2.imshow('orig', frame)
 
 		frame_counter += 1
 

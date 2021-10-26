@@ -1,20 +1,22 @@
 import cv2.cv2 as cv2
 import pytesseract
 import numpy  as np
+import re
 
 def main():
 	# frame = cv2.imread('data/box_score_05.png')
-	frame = cv2.imread('data/screenshot_01.png')
+	frame = cv2.imread('data/box_score_00.png')
 	# frame = cv2.GaussianBlur(frame,(5,5),cv2.BORDER_DEFAULT)
 	height, width, channels = frame.shape
-	frame_crop = frame[-int(height/3):, 0:int(width/3)]
+	# frame_crop = frame[-int(height/3):, 0:int(width/3)]
 
 	# Adding custom options
 	# custom_config = r'--oem 3 --psm 6'
 	custom_config = r'--oem 3 --psm 4'
 
 
-	frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
+	# frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
+	frame_gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
 	ret, frame_thresh = cv2.threshold(frame_gray,128,255,cv2.THRESH_BINARY)
 	contours_list, hierarchy = cv2.findContours(frame_thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 	frame_thresh_orig = frame_thresh.copy()
@@ -34,10 +36,13 @@ def main():
 	frame_thresh = cv2.dilate(frame_thresh, kernel, iterations=1)
 	result = pytesseract.image_to_string(frame_thresh, config=custom_config)
 	# result = pytesseract.image_to_string(frame_thresh)
-	print(result)
-	cv2.imshow('thresh_smooth', frame_thresh)
-	cv2.imshow('thresh_orig', frame_thresh_orig)
-	cv2.imshow('orig', frame)
+	# print(type(result))
+	# print(result)
+
+	polish_result(result)
+	# cv2.imshow('thresh_smooth', frame_thresh)
+	# cv2.imshow('thresh_orig', frame_thresh_orig)
+	# cv2.imshow('orig', frame)
 	cv2.waitKey(0)
 
 	cv2.destroyAllWindows()
@@ -53,6 +58,35 @@ def main():
 
 
 
+def polish_result(result):
+	print('initial')
+	print(result)
+
+	# inp = '''first_word  3 5 7 @  4
+	# second_word 4 5 67| 5 ['''
+	lines = result.split('\n')
+	for line in lines:
+		if len(line) > 0 and not line.isspace():
+			matches = re.findall(r'\w+', line)
+			print(matches)
+
+
+
+	# lines_in_result = result.split("\n")
+	# check = 0
+	# for line in lines_in_result:
+	# 	if len(line) > 0 and not line.isspace():
+	# 		print(line)
+	# 		matches = [x for x in line.split(' ') if x.isalnum()]
+	# 		print(matches)
+		# 	name =
+		# 	for char in line:
+		#
+		# 	re.sub("[^0-9]", "", "sdkjh987978asd098as0980a98sd")
+# '987978098098098'
+# 			print(f'{line}')
+	# if line.find("\n") >= 0:
+	# 	NewList.extend(line.split('\n'))
 
 
 # get grayscale image
@@ -99,6 +133,12 @@ def deskew(image):
 	M = cv2.getRotationMatrix2D(center, angle, 1.0)
 	rotated = cv2.warpAffine(image, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
 	return rotated
+
+def longestSubstring(str):
+	letter = max(re.findall(r'\D+', str), key = len)
+	digit = max(re.findall(r'\d+', str), key = len)
+
+	return letter, digit
 
 
 if __name__ == '__main__':
