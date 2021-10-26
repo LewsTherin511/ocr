@@ -67,10 +67,12 @@ def polish_result(result):
 	lines = result.split('\n')
 	for line in lines:
 		if len(line) > 0 and not line.isspace():
-			matches = re.findall(r'\w+', line)
+			matches = re.findall(r'(?:[a-zA-Z.][a-zA-Z.\s]+[a-zA-Z.])|\w+|[»@]+', line)
 			print(matches)
 
-
+# for line in lines:
+# 	matches = re.findall(r'(?:[a-zA-Z.][a-zA-Z.\s]+[a-zA-Z.])|\w+|[>@]+', line)
+# 	print(matches)
 
 	# lines_in_result = result.split("\n")
 	# check = 0
