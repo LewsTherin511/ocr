@@ -1,5 +1,6 @@
 data/*.mp4
 data/object_detection/
+data/thresholded
 .idea/
 .idea/*
 .idea
