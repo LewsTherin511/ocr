@@ -57,18 +57,32 @@ def main():
 	# print(pytesseract.image_to_string(img_canny))
 
 
-
 def polish_result(result):
-	print('initial')
-	print(result)
-
-	# inp = '''first_word  3 5 7 @  4
-	# second_word 4 5 67| 5 ['''
-	lines = result.split('\n')
+	lines = result.strip().split('\n')
 	for line in lines:
 		if len(line) > 0 and not line.isspace():
-			matches = re.findall(r'(?:[a-zA-Z.][a-zA-Z.\s]+[a-zA-Z.])|\w+|[»@]+', line)
-			print(matches)
+			# for each line, identify the selection mark, the name, and the mess at the end
+			# assuming names can't have numbers in them
+			match = re.match(r'^(\W+)?([^\d]+?)\s*([^a-zA-Z]+)$', line.strip())
+			if match:
+				selected_raw, name, numbers_raw = match.groups()
+				# now parse the unprocessed bits
+				selected = selected_raw is not None
+				numbers = re.findall(r'\d+', numbers_raw)
+				print(selected, name, numbers)
+
+
+# def polish_result(result):
+# 	print('initial')
+# 	print(result)
+#
+# 	# inp = '''first_word  3 5 7 @  4
+# 	# second_word 4 5 67| 5 ['''
+# 	lines = result.split('\n')
+# 	for line in lines:
+# 		if len(line) > 0 and not line.isspace():
+# 			matches = re.findall(r'(?:[a-zA-Z.][a-zA-Z.\s]+[a-zA-Z.])|\w+|[»@]+', line)
+# 			print(matches)
 
 # for line in lines:
 # 	matches = re.findall(r'(?:[a-zA-Z.][a-zA-Z.\s]+[a-zA-Z.])|\w+|[>@]+', line)

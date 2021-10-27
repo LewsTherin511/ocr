@@ -3,6 +3,8 @@ import pytesseract
 import numpy  as np
 import gluoncv as gcv
 import mxnet as mx
+import re
+from matplotlib import pyplot as plt
 
 def main():
 
@@ -28,7 +30,7 @@ def main():
 		else:
 			height, width, channels = frame_np_orig.shape
 
-			if frame_counter % 10 == 0:
+			if frame_counter % 15 == 0:
 
 				# Image pre-processing
 				frame_nd_orig = mx.nd.array(cv2.cvtColor(frame_np_orig, cv2.COLOR_BGR2RGB)).astype('uint8')
@@ -36,54 +38,72 @@ def main():
 				## detection
 				frame_nd_new = frame_nd_new.as_in_context(ctx)
 				class_IDs, scores, bboxes = net(frame_nd_new)
-				# frame_np_orig = gcv.utils.viz.cv_plot_bbox(frame_np_new, bboxes[0], scores[0], class_IDs[0], thresh=0.5, class_names=net.classes)
-				# gcv.utils.viz.cv_plot_image(frame_np_orig)
 
+				## locate area around box score for cropping, in relative coords
 				box_score_x0_rel = bboxes[0][0][0].asnumpy()/frame_np_new.shape[1]
 				box_score_y0_rel = bboxes[0][0][1].asnumpy()/frame_np_new.shape[0]
 				box_score_x1_rel = bboxes[0][0][2].asnumpy()/frame_np_new.shape[1]
 				box_score_y1_rel = bboxes[0][0][3].asnumpy()/frame_np_new.shape[0]
 				width_rel = box_score_x1_rel-box_score_x0_rel
 				height_rel = box_score_y1_rel-box_score_y0_rel
-
+				## cropping only if detection prob > 60%
 				if scores[0][0] > 0.6:
-					# frame_np_orig = cv2.rectangle(frame_np_orig, (int((box_score_x0_rel-width_rel/3)*frame_np_orig.shape[1]),int((box_score_y0_rel-height_rel/3)*frame_np_orig.shape[0]) ),
-					# 							  (int((box_score_x1_rel+width_rel/3)*frame_np_orig.shape[1]),int((box_score_y1_rel+height_rel/3)*frame_np_orig.shape[0]) ), (0,255,0), 3
-					# 							  )
-					frame_crop = frame_np_orig[int((box_score_y0_rel-height_rel/3)*frame_np_orig.shape[0]):int((box_score_y1_rel+height_rel/3)*frame_np_orig.shape[0]),
-								 int((box_score_x0_rel-width_rel/3)*frame_np_orig.shape[1]):int((box_score_x1_rel+width_rel/3)*frame_np_orig.shape[1])
+					frame_crop = frame_np_orig[int((box_score_y0_rel-height_rel/10)*frame_np_orig.shape[0]):int((box_score_y1_rel+height_rel/10)*frame_np_orig.shape[0]),
+								 int((box_score_x0_rel-width_rel/10)*frame_np_orig.shape[1]):int((box_score_x1_rel+width_rel/10)*frame_np_orig.shape[1])
 								]
 				else:
 					frame_crop = None
 
 				if (frame_crop is not None) and frame_crop.shape[0]>0 and frame_crop.shape[1]>0:
-					try:
-						cv2.imshow('out', frame_crop)
-					except:
-						pass
-					## Adding custom options
-					## custom_config = r'--oem 3 --psm 6'
-					custom_config = r'--oem 3 --psm 4'
+					# try:
+					cv2.imshow('step_00', frame_crop)
+					# except:
+					# 	pass
+
 					frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
 					ret, frame_thresh = cv2.threshold(frame_gray,128,255,cv2.THRESH_BINARY)
+					# cv2.imshow('step_01_crop&thresh', frame_thresh)
+					## looking for areas of different color within box score, making everything more homogeneous
 					contours_list, hierarchy = cv2.findContours(frame_thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
-					# frame_thresh_orig = frame_thresh.copy()
 					for cnt in contours_list:
 						x, y, w, h = cv2.boundingRect(cnt)
 						approx = cv2.approxPolyDP(cnt, 0.01 * cv2.arcLength(cnt, True), True)
+						## locating quadrangolar areas and applying bitwise-not mask on them
 						if len(approx) == 4 and (w*h>50):
-							# frame = cv2.drawContours(frame, cnt, -1, (0,255,0), 1)
-				# 			# frame = cv2.circle(frame, (x,y), 2, (0,255,0),3)
-				# 			# frame = cv2.circle(frame, (x+w,y+h), 2, (0,255,0),3)
+							# frame_thresh = cv2.drawContours(frame_thresh, [cnt], 0, (0,0,255), 2)
 							frame_thresh[y:y+h, x:x+w] = cv2.bitwise_not(frame_thresh[y:y+h, x:x+w])
-							frame_thresh = cv2.bitwise_not(frame_thresh)
+							cv2.imshow('step_02_fix_inside_boxes', frame_thresh)
+
+							## if cropped thresholded image is mostly white on black, apply bitwise_not
+							if np.average(np.average(frame_thresh, axis=0), axis=0) < 127:
+								frame_thresh = cv2.bitwise_not(frame_thresh)
+
+							## black text on white background
+							# frame_thresh = cv2.bitwise_not(frame_thresh)
+							cv2.imshow('step_03_black_on_white', frame_thresh)
+					## cleaning noisy areas
 					kernel = np.ones((2, 2), np.uint8)
 					frame_thresh = cv2.erode(frame_thresh, kernel, iterations=1)
 					frame_thresh = cv2.dilate(frame_thresh, kernel, iterations=1)
+
+					## if resulting frame here is mostly black, switch it to improve text detection
+					# cv2.imwrite(f'data/thresholded/frame_thresh_{frame_counter}.png', frame_thresh)
+					# hist = cv2.calcHist([frame_thresh], [0], None, [2], [0, 1])
+					# hist /= hist.sum()
+					# if hist[0]>hist[1]:
+					# 	frame_thresh = cv2.bitwise_not(frame_thresh)
+					try:
+						cv2.imshow('step_04_final', frame_thresh)
+					except:
+						pass
+
+					## text detection
+					## custom_config = r'--oem 3 --psm 6'
+					custom_config = r'--oem 3 --psm 4'
 					result = pytesseract.image_to_string(frame_thresh, config=custom_config)
-					print(result)
-			# # cv2.imshow('thresh_orig', frame_thresh_orig)
-			# cv2.imshow('orig', frame)
+					polish_result(result)
+					print()
+
 
 		frame_counter += 1
 
@@ -98,6 +118,21 @@ def main():
 	# print(pytesseract.image_to_string(img_denoise, config=custom_config))
 	# print(pytesseract.image_to_string(img_canny))
 
+
+
+def polish_result(result):
+	lines = result.strip().split('\n')
+	for line in lines:
+		if len(line) > 0 and not line.isspace():
+			# for each line, identify the selection mark, the name, and the mess at the end
+			# assuming names can't have numbers in them
+			match = re.match(r'^(\W+)?([^\d]+?)\s*([^a-zA-Z]+)$', line.strip())
+			if match:
+				selected_raw, name, numbers_raw = match.groups()
+				# now parse the unprocessed bits
+				selected = selected_raw is not None
+				numbers = re.findall(r'\d+', numbers_raw)
+				print(selected, name, numbers)
 
 
 
