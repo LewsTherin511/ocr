@@ -165,7 +165,7 @@ def parse_score(score_1, score_2):
 			long.append(tmp)
 
 
-	if len(score_1) == len(score_2) and len(score_1) >= 3:
+	if len(score_1) == len(score_2) and len(score_1) >= 4:
 		collapse_last_two = False
 		## if last digit is 0 or 5, check previous ones to determine whether it is score in curernt game, or last two digits should be collapsed
 		if score_1[-1] == '0':
