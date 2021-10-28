@@ -132,12 +132,10 @@ def parse_score(score_1, score_2):
 	for score in [score_1, score_2]:
 		score = [x.replace('8', '5') for x in score]
 
-	if len(score_1) == len(score_2):
-		print('same lenght, check for 6s')
-	elif abs(len(score_1) - len(score_2)) == 1:
-		print('check for longer')
-
-
+	# if len(score_1) == len(score_2):
+	# 	print('same lenght, check for 6s')
+	# elif abs(len(score_1) - len(score_2)) == 1:
+	# 	print('check for longer')
 
 	tmp_1 = []
 	for x in score_1:
@@ -155,13 +153,56 @@ def parse_score(score_1, score_2):
 			tmp_2.append(x)
 	score_2 = [item for sublist in tmp_2 for item in sublist]
 
+
+	if len(score_1) >= 2 and len(score_2)>= 2 and abs(len(score_1)-len(score_2))==1:
+		long = score_1 if len(score_1)>len(score_2) else score_2
+		short = score_1 if len(score_1)<len(score_2) else score_2
+		# print(f'The long list is: {long}')
+		# print(f'The short list is: {short}')
+		if short[-1] == '0':
+			tmp = ''.join(long[-2:])
+			del long[-2:]
+			long.append(tmp)
+
+
+	if len(score_1) == len(score_2) and len(score_1) >= 3:
+		collapse_last_two = False
+		## if last digit is 0 or 5, check previous ones to determine whether it is score in curernt game, or last two digits should be collapsed
+		if score_1[-1] == '0':
+			# print('check_01')
+			if score_1[-2] == '3' or score_1[-2] == '4':
+				# print('check_02')
+				if int(score_1[-4]) >= 6 or int(score_2[-4])>= 6:
+					# print('check_03')
+					collapse_last_two = True
+		elif score_1[-1] == '5':
+			# print('check_01')
+			if score_1[-2] == '1' or score_1[-2] == '4':
+				# print('check_02')
+				if int(score_1[-4]) >= 6 or int(score_2[-4])>= 6:
+					# print('check_03')
+					collapse_last_two = True
+
+
+		if collapse_last_two:
+			# print('collapsing scores!!')
+			for score in score_1, score_2:
+				tmp = ''.join(score[-2:])
+				del score[-2:]
+				score.append(tmp)
+			# print(f'\t\tcollapsed score {score}')
+
 	return score_1, score_2
 
-	## split all digits
 
 
 
-	return score_8_to_5
+
+
+
+
+
+
 
 
 # get grayscale image
