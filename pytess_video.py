@@ -28,7 +28,7 @@ def main():
 		if (not ret) or key == ord('q'):
 			break
 		else:
-			height, width, channels = frame_np_orig.shape
+			height_orig, width_orig, channels = frame_np_orig.shape
 
 			if frame_counter % 15 == 0:
 
@@ -48,17 +48,14 @@ def main():
 				height_rel = box_score_y1_rel-box_score_y0_rel
 				## cropping only if detection prob > 60%
 				if scores[0][0] > 0.6:
-					frame_crop = frame_np_orig[int((box_score_y0_rel-height_rel/10)*frame_np_orig.shape[0]):int((box_score_y1_rel+height_rel/10)*frame_np_orig.shape[0]),
-								 int((box_score_x0_rel-width_rel/10)*frame_np_orig.shape[1]):int((box_score_x1_rel+width_rel/10)*frame_np_orig.shape[1])
+					frame_crop = frame_np_orig[int((box_score_y0_rel-height_rel/10)*height_orig):int((box_score_y1_rel+height_rel/10)*height_orig),
+								 int((box_score_x0_rel-width_rel/10)*width_orig):int((box_score_x1_rel+width_rel/10)*width_orig)
 								]
 				else:
 					frame_crop = None
 
 				if (frame_crop is not None) and frame_crop.shape[0]>0 and frame_crop.shape[1]>0:
-					# try:
 					cv2.imshow('step_00', frame_crop)
-					# except:
-					# 	pass
 
 					frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
 					ret, frame_thresh = cv2.threshold(frame_gray,128,255,cv2.THRESH_BINARY)
@@ -77,32 +74,21 @@ def main():
 							## if cropped thresholded image is mostly white on black, apply bitwise_not
 							if np.average(np.average(frame_thresh, axis=0), axis=0) < 127:
 								frame_thresh = cv2.bitwise_not(frame_thresh)
-
-							## black text on white background
-							# frame_thresh = cv2.bitwise_not(frame_thresh)
 							cv2.imshow('step_03_black_on_white', frame_thresh)
 					## cleaning noisy areas
 					kernel = np.ones((2, 2), np.uint8)
 					frame_thresh = cv2.erode(frame_thresh, kernel, iterations=1)
 					frame_thresh = cv2.dilate(frame_thresh, kernel, iterations=1)
 
-					## if resulting frame here is mostly black, switch it to improve text detection
 					# cv2.imwrite(f'data/thresholded/frame_thresh_{frame_counter}.png', frame_thresh)
-					# hist = cv2.calcHist([frame_thresh], [0], None, [2], [0, 1])
-					# hist /= hist.sum()
-					# if hist[0]>hist[1]:
-					# 	frame_thresh = cv2.bitwise_not(frame_thresh)
-					try:
-						cv2.imshow('step_04_final', frame_thresh)
-					except:
-						pass
+					cv2.imshow('step_04_final', frame_thresh)
+
 
 					## text detection
 					## custom_config = r'--oem 3 --psm 6'
 					custom_config = r'--oem 3 --psm 4'
 					result = pytesseract.image_to_string(frame_thresh, config=custom_config)
-					polish_result(result)
-					print()
+					parse_result(result)
 
 
 		frame_counter += 1
@@ -110,31 +96,72 @@ def main():
 	cv2.destroyAllWindows()
 	cap.release()
 
-	# img_gray = get_grayscale(img)
-	# img_canny = canny(img)
-	# img_thresh = thresholding(img_gray)
-	# img_denoise = remove_noise(img)
-	# img_open = opening(img)
-	# print(pytesseract.image_to_string(img_denoise, config=custom_config))
-	# print(pytesseract.image_to_string(img_canny))
 
-
-
-def polish_result(result):
+def parse_result(result):
+	cnt = 0
+	name_1, name_2, serving_1, serving_2, score_1, score_2 = None, None, None, None, None, None
 	lines = result.strip().split('\n')
 	for line in lines:
-		if len(line) > 0 and not line.isspace():
-			# for each line, identify the selection mark, the name, and the mess at the end
-			# assuming names can't have numbers in them
+		## keep only lines not containing only whitespaces
+		if len(line) > 5 and not line.isspace():
+			# for each line, identify serving mark, name, score
 			match = re.match(r'^(\W+)?([^\d]+?)\s*([^a-zA-Z]+)$', line.strip())
 			if match:
-				selected_raw, name, numbers_raw = match.groups()
-				# now parse the unprocessed bits
-				selected = selected_raw is not None
-				numbers = re.findall(r'\d+', numbers_raw)
-				print(selected, name, numbers)
+				serving_raw, name, score_raw = match.groups()
+				serving = serving_raw is not None
+				score = re.findall(r'\d+', score_raw)
+				if cnt == 0:
+					name_1 = name
+					serving_1 = serving
+					score_1 = score
+				else:
+					name_2 = name
+					score_2 = score
+			## moving to second line
+			cnt += 1
+	if score_1 and score_2:
+		score_1, score_2 = parse_score(score_1, score_2)
+
+	print(f'Player_1: {name_1} -> {score_1}\nPlayer_2: {name_2} -> {score_2}\nServing: {"name_1" if serving_1 else "name_2"}\n')
 
 
+
+def parse_score(score_1, score_2):
+
+	## replacing '8's with '5's
+	for score in [score_1, score_2]:
+		score = [x.replace('8', '5') for x in score]
+
+	if len(score_1) == len(score_2):
+		print('same lenght, check for 6s')
+	elif abs(len(score_1) - len(score_2)) == 1:
+		print('check for longer')
+
+
+
+	tmp_1 = []
+	for x in score_1:
+		if len(x)>1:
+			tmp_1.append([char for char in x])
+		else:
+			tmp_1.append(x)
+	score_1 = [item for sublist in tmp_1 for item in sublist]
+
+	tmp_2 = []
+	for x in score_2:
+		if len(x)>1:
+			tmp_2.append([char for char in x])
+		else:
+			tmp_2.append(x)
+	score_2 = [item for sublist in tmp_2 for item in sublist]
+
+	return score_1, score_2
+
+	## split all digits
+
+
+
+	return score_8_to_5
 
 
 # get grayscale image

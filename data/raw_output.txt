@@ -1,0 +1,1583 @@
+Player_1: G. MONFILS, ['3', '61']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS, ['3', '61']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS, ['3', '61']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS o, ['3', '641']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS, ['5', '3', '61']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1']
+Serving: name_2
+
+Player_1: G. MONFILS, ['5', '3', '61']
+Player_2: H.ZEBALLOS, ['15', '6', '3', '1', '7']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: Thiem, ['41', '0']
+Player_2: Khachanov, ['6', '2', '40']
+Serving: name_2
+
+Player_1: _ _= ay, []
+Player_2: Nishikori, ['0', '40']
+Serving: name_1
+
+Player_1: _ = an, []
+Player_2: aE =e, []
+Serving: name_1
+
+Player_1: None, None
+Player_2: Nishikori, ['40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Nishikori oO, ['40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Nishikori, ['40']
+Serving: name_2
+
+Player_1: Nadal, ['1', '40']
+Player_2: Nishikori oO, ['40']
+Serving: name_2
+
+Player_1: Nadal, ['1', '403']
+Player_2: Nishikori oO, ['40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Nishikori oO, ['40']
+Serving: name_2
+
+Player_1: Nadal, ['1', '40']
+Player_2: Nishikori oO, ['40']
+Serving: name_2
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: F. Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['4030']
+Serving: name_2
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['4030']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['40', '30']
+Serving: name_1
+
+Player_1: Verdasco, ['6', '3', '30']
+Player_2: Thiem, ['4', '0', '30']
+Serving: name_1
+
+Player_1: Sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: Sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: Sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: Sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Dimitrov, ['2']
+Serving: name_2
+
+Player_1: Sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_2
+
+Player_1: sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: sugita, ['1']
+Player_2: Dimitrov, ['2']
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Sugita, ['1', '15']
+Player_2: Dimitrov, ['2', '0']
+Serving: name_1
+
+Player_1: Sugita, ['1', '15']
+Player_2: Dimitrov, ['2', '0']
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Sugita, ['1', '15']
+Player_2: o Dimitrov, ['2', '0']
+Serving: name_2
+
+Player_1: Sugita, ['15']
+Player_2: None, None
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A.Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A.Zverev, ['6', '15']
+Serving: name_1
+
+Player_1: Federer, ['5', '0']
+Player_2: A.Zverev, ['6', '15']
+Serving: name_1
+
+Player_1: Federer, ['5', '0']
+Player_2: A.Zverev, ['6', '15']
+Serving: name_1
+
+Player_1: Federer, ['5', '0']
+Player_2: A.Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_2
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_1
+
+Player_1: Federer, ['5', '0']
+Player_2: A. Zverev, ['6', '15']
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: DWE, ['3', '2', '405']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: we, ['3', '2', '401']
+Serving: name_2
+
+Player_1: wu, ['614', '40']
+Player_2: we, ['3', '2', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: mye, ['3', '2', '40']
+Serving: name_2
+
+Player_1: alam, ['614', '40']
+Player_2: mye, ['3', '2', '40']
+Serving: name_2
+
+Player_1: wa, ['614', '40']
+Player_2: PE, ['3', '2', '40']
+Serving: name_2
+
+Player_1: ale, ['614', '40']
+Player_2: DINE, ['3', '2', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: PIE, ['3', '2', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: Goffin, ['5']
+Player_2: Bautista Agut, ['5']
+Serving: name_1
+
+Player_1: None, None
+Player_2: Bautista Agut, ['5']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Bautista Agut, ['5']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Bautista Agut, ['5']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Bautista Agut, ['5']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Bautista Agut, ['5']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Goffin, ['5', '15']
+Serving: name_2
+
+Player_1: Goffin, ['5', '15']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Goffin, ['5', '15']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Goffin, ['5', '15']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Goffin, ['5', '15']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Isner, ['762']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Isner, ['762']
+Player_2: q Monfils, ['664']
+Serving: name_1
+
+Player_1: Isner, ['762']
+Player_2: Monfils, ['664']
+Serving: name_1
+
+Player_1: Isner, ['762']
+Player_2: a Monfils, ['664']
+Serving: name_1
+
+Player_1: _ Isner, ['762']
+Player_2: Monfils, ['664']
+Serving: name_2
+
+Player_1: Isner, ['762']
+Player_2: Monfils, ['664']
+Serving: name_1
+
+Player_1: Isner, ['762']
+Player_2: Monfils, ['664']
+Serving: name_1
+
+Player_1: isner, ['762']
+Player_2: Monfils, ['664']
+Serving: name_1
+
+Player_1: None, None
+Player_2: Isner, ['762']
+Serving: name_2
+
+Player_1: Isner, ['76', '2']
+Player_2: Monfils, ['664']
+Serving: name_1
+
+Player_1: None, None
+Player_2: Montfils, ['6', '6', '4']
+Serving: name_2
+
+Player_1: Isner, ['762']
+Player_2: Monf'ls, ['664']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Isner, ['76', '2']
+Player_2: Monf'ls, ['6', '6', '5']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['61', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '1']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['12', '15']
+Player_2: sner, ['61', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: Del Potro, ['1', '2', '15']
+Player_2: sner, ['6', '1', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: SHAl, ['2', '2', '151']
+Player_2: None, None
+Serving: name_1
+
+Player_1: DEL, []
+Player_2: None, None
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Chardy, ['4720']
+Player_2: Tsitsipas, ['653', '0']
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '40']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['4', '407']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Federer, ['5']
+Player_2: Krajinovic, ['2']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Sugita, ['0', '15']
+Player_2: Kudla a, ['405']
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: Kudla, ['1', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Kudia, ['1', '40']
+Serving: name_2
+
+Player_1: Sugita o, ['15']
+Player_2: Kudla, ['1', '40']
+Serving: name_1
+
+Player_1: None, None
+Player_2: Kudla, ['1', '40']
+Serving: name_2
+
+Player_1: Sugita o, ['15']
+Player_2: Kudla, ['1', '40']
+Serving: name_2
+
+Player_1: Sugita o, ['15', '5']
+Player_2: _*Kudla, ['1', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: _» Kudla, ['1', '40']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: Cecchinato, ['40']
+Player_2: Carreno Busta, ['5', '15']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_1
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: p Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: Anderson, ['6', '0', '30']
+Serving: name_2
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: None, None
+Serving: name_2
+
+Player_1: Mannarino, ['3', '3', '15']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _» A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40', '4']
+Player_2: None, None
+Serving: name_2
+
+Player_1: Struff, ['42', '40']
+Player_2: A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['42', '40']
+Player_2: _*A.Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: _*A.Zverev, ['6', '3', '407']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _»+A.Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _* A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _*A.Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _»A.Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['42', '40']
+Player_2: _» A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _*A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _*A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: Struff, ['4', '2', '40']
+Player_2: _» A. Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: _>A.Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: _»A.Zverev, ['6', '3', '40']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '155']
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '15']
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '15']
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '15']
+Player_2: Fritz, ['3110']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '155']
+Player_2: b Fritz, ['311', '0']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '15']
+Player_2: Fritz, ['311', '0']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '15']
+Player_2: Fritz, ['311', '0']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '155']
+Player_2: b Fritz, ['311', '0']
+Serving: name_2
+
+Player_1: De Minaur, ['4', '4', '1', '155']
+Player_2: Fritz, ['311', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Palla, ['57', '156']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Lalla $g, ['156']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios ce, []
+Player_2: Pallas, ['15']
+Serving: name_2
+
+Player_1: Kyrgios ce, []
+Player_2: Pallas, ['15']
+Serving: name_2
+
+Player_1: Kyrgios ce, []
+Player_2: Palla $ a a be, []
+Serving: name_2
+
+Player_1: Kyrgios ce, []
+Player_2: Palla $ a a be, []
+Serving: name_2
+
+Player_1: Kyrgios, ['0']
+Player_2: None, None
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['7', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['7', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['7', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['115']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['10']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['1', '0']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['115']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['115']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Kyrgios, ['115']
+Player_2: Murray, ['1', '15']
+Serving: name_2
+
+Player_1: Gasquet, ['3', '407']
+Player_2: _» A. Zverev, ['1', '40']
+Serving: name_1
+
+Player_1: Gasquet, ['3', '407']
+Player_2: _» A. Zverev, ['1', '40']
+Serving: name_1
+
+Player_1: Gasquet, ['3', '407']
+Player_2: _» A. Zverev, ['1', '40']
+Serving: name_1
+
+Player_1: Gasquet, ['3', '407']
+Player_2: _+A.Zverev, ['1', '40']
+Serving: name_1
+
+Player_1: Gasquet, ['3', '407']
+Player_2: _> A. Zverev, ['1', '40']
+Serving: name_1
+
+Player_1: Gasquet, ['3', '407']
+Player_2: _» A. Zverev, ['1', '40']
+Serving: name_1
+
+Player_1: None, None
+Player_2: _, []
+Serving: name_2
+
+Player_1: Ymer, ['3', '0', '30']
+Player_2: None, None
+Serving: name_1
+
+Player_1: Ymer, ['3', '0', '30']
+Player_2: Raonic, ['610']
+Serving: name_1
+
+Player_1: Ymer, ['3', '0', '30']
+Player_2: Raonic, ['610']
+Serving: name_1
+
+Player_1: Ymer, ['3', '0', '30']
+Player_2: Raonic, ['610']
+Serving: name_1
+
+Player_1: Ymer, ['3', '0', '30']
+Player_2: Raonic, ['610']
+Serving: name_1
+
+Player_1: Ymer, ['3', '0', '30']
+Player_2: Raonic, ['610']
+Serving: name_1
+
+Player_1: Ymer, ['30', '30']
+Player_2: Raonic, ['61', '0']
+Serving: name_1
+
+Player_1: Ymer, ['30', '30']
+Player_2: Raonic, ['61', '0']
+Serving: name_1
+
+Player_1: Ymer, ['30', '30']
+Player_2: Raonic, ['61', '0']
+Serving: name_1
+
+Player_1:  , []
+Player_2: Djokovic, ['37', '0']
+Serving: name_1
+
+Player_1: None, None
+Player_2: None, None
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovie, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovie, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: _, ['4']
+Player_2: Djokovic, ['370']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: None, None
+Player_2: Djokovic, ['37', '0']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36030']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['6', '3', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['6', '3', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['6', '3', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['6', '3', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['6', '3', '1', '15']
+Player_2: Chung, ['36', '0', '30']
+Serving: name_2
+
+Player_1: Shapovalov, ['63', '1', '15']
+Player_2: Chung, ['360', '30']
+Serving: name_2
+
+
+Process finished with exit code 0
+
