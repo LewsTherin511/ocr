@@ -20,7 +20,7 @@ def main():
 	net.load_parameters("data/object_detection/box_score_ssd_512_mobilenet1.0_coco_run_00/ep_035.params", ctx=ctx)	### GREAT!!!
 	net.hybridize()
 
-	file_out = open('predictions.csv', 'w+')
+	file_out = open('predictions_00.csv', 'w+')
 	file_out.write('frame,serving,name_1,_name2,score_1,score_2\n')
 
 	frame_counter = 0
@@ -61,8 +61,8 @@ def main():
 				cv2.imshow('step_00', frame_crop)
 
 				frame_gray = cv2.cvtColor(frame_crop, cv2.COLOR_RGB2GRAY)
-				ret, frame_thresh = cv2.threshold(frame_gray,200,255,cv2.THRESH_BINARY)
-				# cv2.imshow('step_01_crop&thresh', frame_thresh)
+				ret, frame_thresh = cv2.threshold(frame_gray,128,255,cv2.THRESH_BINARY)
+				cv2.imshow('step_01_crop&thresh', frame_thresh)
 				## looking for areas of different color within box score, making everything homogeneous
 				contours_list, hierarchy = cv2.findContours(frame_thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 				for cnt in contours_list:
@@ -132,15 +132,16 @@ def parse_result(result):
 					score_2 = score
 			## moving to second line
 			cnt += 1
-	if score_1 and score_2:
-		score_1, score_2 = parse_score(score_1, score_2)
+	## parse scores applying heuristics
+	# if score_1 and score_2:
+	# 	score_1, score_2 = parse_score(score_1, score_2)
 	## switch ',' with '.' in players' names
 	if name_1:
 		name_1 = name_1.replace(',', '.')
 	if name_2:
 		name_2 = name_2.replace(',', '.')
 
-	# print(f'Player_1: {name_1} -> {score_1}\nPlayer_2: {name_2} -> {score_2}\nServing: {"name_1" if serving_1 else "name_2"}\n')
+	print(f'Player_1: {name_1} -> {score_1}\nPlayer_2: {name_2} -> {score_2}\nServing: {"name_1" if serving_1 else "name_2"}\n')
 	return name_1, name_2, serving_1, score_1, score_2
 
 

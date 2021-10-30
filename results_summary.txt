@@ -1,7 +1,26 @@
+*) 00_results
+	- NO parsing scores;
+	- no players' names polishing;
+	- frame_crop excess: 10% relative size
+	- threshold: 128
+
+
 *) 01_results
 	- parsing scores;
 	- no players' names polishing;
 	- frame_crop excess: 10% relative size
 	- threshold: 128
+	Serving: 0.75
+	Name 01: 0.62
+	Name 02: 0.67
+	Score 01: 0.53
+	Score 02: 0.59
+
 	
+*) 02_results
+	- parsing;
+	- no players' names polishing;
+	- frame_crop excess: 10% relative size
+	- threshold: 200
+
 
