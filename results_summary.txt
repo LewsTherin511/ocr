@@ -1,0 +1,7 @@
+*) 01_results
+	- parsing scores;
+	- no players' names polishing;
+	- frame_crop excess: 10% relative size
+	- threshold: 128
+	
+
