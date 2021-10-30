@@ -6,8 +6,8 @@ def main():
 	pd.options.display.max_columns = None
 	pd.options.display.width=None
 
-	df_labels = pd.read_csv('data/parsed_labels.csv')
-	df_pred = pd.read_csv('results/00_predictions.csv')
+	df_labels = pd.read_csv('data/parsed_labels_polished.csv')
+	df_pred = pd.read_csv('results/01_predictions_polished.csv')
 	df_match= pd.merge(df_labels,df_pred,how='left',on = ['frame'])
 
 	# print(df_match)
@@ -15,8 +15,8 @@ def main():
 	# df_match = pd.read_csv('results/01_match.csv')
 
 	df_match['match_serving'] = np.where(df_match["serving_label"] == df_match["serving_pred"], 1, 0)
-	df_match['match_name_1'] = np.where(df_match["name_1_label"] == df_match["name_1_pred"], 1, 0)
-	df_match['match_name_2'] = np.where(df_match["name_2_label"] == df_match["name_2_pred"], 1, 0)
+	df_match['match_name_1'] = np.where(df_match["name_1_label_polished"] == df_match["name_1_pred_polished"], 1, 0)
+	df_match['match_name_2'] = np.where(df_match["name_2_label_polished"] == df_match["name_2_pred_polished"], 1, 0)
 	df_match['match_score_1'] = np.where(df_match["score_1_label"] == df_match["score_1_pred"], 1, 0)
 	df_match['match_score_2'] = np.where(df_match["score_2_label"] == df_match["score_2_pred"], 1, 0)
 
