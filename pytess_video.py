@@ -21,7 +21,7 @@ def main():
 	net.hybridize()
 
 	file_out = open('predictions_00.csv', 'w+')
-	file_out.write('frame,serving,name_1,_name2,score_1,score_2\n')
+	file_out.write('frame,serving_pred,name_1_pred,name_2_pred,score_1_pred,score_2_pred\n')
 
 	frame_counter = 0
 	while True:

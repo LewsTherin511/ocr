@@ -1,4 +1,4 @@
-frame,serving,name_1,_name2,score_1,score_2
+frame,serving_pred,name_1_pred,name_2_pred,score_1_pred,score_2_pred
 0,name_2,G. MONFILS,H.ZEBALLOS,3-61,15-6-3-1
 1,name_2,G. MONFILS,H.ZEBALLOS,3-61,15-6-3-1
 2,name_2,G. MONFILS,H.ZEBALLOS,3-61,15-6-3-1
@@ -259,7 +259,7 @@ frame,serving,name_1,_name2,score_1,score_2
 257,name_2,G. MONFILS,H.ZEBALLOS BER,15,6-3-1
 258,name_2,None,None,None,None
 259,name_2,G. MONFILS,PH.ZEBALLOS,15-3,15-6
-260,name_2,G. MONFILS,eH. ZEBALLOS §ER,15,6
+260,name_2,G. MONFILS,eH. ZEBALLOS ÃÂ§ER,15,6
 261,name_2,None,me,None,6-3-1
 262,name_2,None,H.ZEBALLOS BER,None,6-3-1
 263,name_2,None,None,None,None
@@ -615,7 +615,7 @@ frame,serving,name_1,_name2,score_1,score_2
 613,name_2,None,None,None,None
 614,name_2,_ Thiem,Khachanov,41-0,6-2-40
 615,name_2,None,None,None,None
-616,name_2,Thiem,a’ Khachanov,41-0,6-2-40
+616,name_2,Thiem,aÃ¢ÂÂ Khachanov,41-0,6-2-40
 617,name_2,Thiem,Khachanov,410,6-2-405
 618,name_2,D thiem,Khachanov,410,6-2-40
 619,name_2,None,None,None,None
@@ -711,12 +711,12 @@ frame,serving,name_1,_name2,score_1,score_2
 709,name_2,None,None,None,None
 710,name_2,None,None,None,None
 711,name_2,None,None,None,None
-712,name_1,_— _= a,Nishikori,,0-40
+712,name_1,_Ã¢ÂÂ _= a,Nishikori,,0-40
 713,name_1,_ _= a,wae ws,,
-714,name_1,_— _=— a,Nishikori,,0-40
-715,name_1,_— _=— a,Nishikori,,0-40
-716,name_1,_— _=— a,Nishikori,,0-40
-717,name_1,_— _= ar,Nishikori,,0-40
+714,name_1,_Ã¢ÂÂ _=Ã¢ÂÂ a,Nishikori,,0-40
+715,name_1,_Ã¢ÂÂ _=Ã¢ÂÂ a,Nishikori,,0-40
+716,name_1,_Ã¢ÂÂ _=Ã¢ÂÂ a,Nishikori,,0-40
+717,name_1,_Ã¢ÂÂ _= ar,Nishikori,,0-40
 718,name_1,_= ar,Nishikori,,0-40
 719,name_1,_ = a,Nishikori,,0-40
 720,name_1,_ _= ay,Nishikori,,0-40
@@ -735,14 +735,14 @@ frame,serving,name_1,_name2,score_1,score_2
 733,name_2,None,Nishikori,None,0-40
 734,name_2,None,Nishikori,None,0-40
 735,name_1,_ = an,aE =e,,
-736,name_1,_— = aN,iw ae,,
+736,name_1,_Ã¢ÂÂ = aN,iw ae,,
 737,name_2,None,Nishikori,None,0-40
 738,name_2,None,we ae,None,
 739,name_2,None,Nishikori,None,0-40
-740,name_1, ,Nishikori,,0-40
+740,name_1,,Nishikori,,0-40
 741,name_2,None,ov Nishikori,None,0-40
 742,name_1,Nadal,Nishikori,1-40,0-40
-743,name_2,None,_--—S,None,
+743,name_2,None,_--Ã¢ÂÂS,None,
 744,name_2,Fadl,Nishikori,1-40,0-401
 745,name_2,None,y Nishikori,None,0-40
 746,name_2,None,_,None,
@@ -759,10 +759,10 @@ frame,serving,name_1,_name2,score_1,score_2
 757,name_2,None,Nishikori,None,0-40
 758,name_2,None,Nishikori,None,0-40
 759,name_2,P Nadal,Nishikori Oo,1-40,40
-760,name_2,rt Ane,a” Nishikori,,0-40
+760,name_2,rt Ane,aÃ¢ÂÂ Nishikori,,0-40
 761,name_2,ar Ane,Nishikori,,0-40
 762,name_1,Ar,Nishikori,,0-40
-763,name_1,Nadal,ag’ Nishikori,1-40,0-40
+763,name_1,Nadal,agÃ¢ÂÂ Nishikori,1-40,0-40
 764,name_1,AV,Nishikori,,0-40
 765,name_2,None,Nishikori oO,None,40
 766,name_2,None,Nishikori,None,0-40
@@ -783,7 +783,7 @@ frame,serving,name_1,_name2,score_1,score_2
 781,name_2,None,Nishikori,None,0-40
 782,name_1,_,fF. Nishikori,,0-40
 783,name_2,None,f.Nishikori,None,0-40
-784,name_2,None,_— ~aee,None,6
+784,name_2,None,_Ã¢ÂÂ ~aee,None,6
 785,name_2,None,Nishikori,None,0-40
 786,name_2,B Nadal,Nishikori O,1-40,40
 787,name_2,Badal,Nishikori,1-40,0-401
@@ -815,7 +815,7 @@ frame,serving,name_1,_name2,score_1,score_2
 813,name_2,A. Nadal,Nishikori Oo,1-40,40
 814,name_2,Nadal,Nishikori oO,1-40,40
 815,name_2,Nadal,wa,1-403,
-816,name_2,Nadal,Tamm —_— z,1-40,
+816,name_2,Nadal,Tamm Ã¢ÂÂ_Ã¢ÂÂ z,1-40,
 817,name_2,Nadal,wm uu Z,1-40,
 818,name_2,None,wm uu Z,None,
 819,name_2,Nadal,wm uu Z,1-40,
@@ -830,7 +830,7 @@ frame,serving,name_1,_name2,score_1,score_2
 828,name_2,None,None,None,None
 829,name_2,None,None,None,None
 830,name_2,None,Nishikori oO,None,40
-831,name_2,None,am u_—_—_-a,None,
+831,name_2,None,am u_Ã¢ÂÂ_Ã¢ÂÂ_-a,None,
 832,name_2,Nadal,Nishikori oO,1-40,40
 833,name_2,None,Nishikori oO,None,40
 834,name_2,Nadal,Nishikori oO,1-401,40
@@ -1665,7 +1665,7 @@ frame,serving,name_1,_name2,score_1,score_2
 1663,name_2,None,None,None,None
 1664,name_1,Sugita,Dimitrov,1-15-7,2-0
 1665,name_2,None,None,None,None
-1666,name_2,_’ Sugita,Dimitrov,1-15,2-0
+1666,name_2,_Ã¢ÂÂ Sugita,Dimitrov,1-15,2-0
 1667,name_2,None,None,None,None
 1668,name_1,Sugita,_ Dimitrov,1-15,2-0
 1669,name_1,Sugita,_ Dimitrov,1-15,2-0
@@ -2571,7 +2571,7 @@ frame,serving,name_1,_name2,score_1,score_2
 2569,name_1,Goffin,None,5-15,None
 2570,name_2,ii,Goffin,,5-15
 2571,name_2,None,Goffin,None,5-15
-2572,name_1, ,Goffin,,5-15
+2572,name_1,,Goffin,,5-15
 2573,name_1,Goffin,None,5-15,None
 2574,name_1,Goffin,None,5-15,None
 2575,name_2,None,Goffin,None,5-15
@@ -4308,7 +4308,7 @@ frame,serving,name_1,_name2,score_1,score_2
 4306,name_2,Sugita o,Kudla,15,1-15
 4307,name_2,Sugita o,Kudla,15,1-40
 4308,name_2,None,Kudla,None,1-40
-4309,name_2,_— iz,Kudla,,1-40
+4309,name_2,_Ã¢ÂÂ iz,Kudla,,1-40
 4310,name_2,q Sugita o,Kudla,15,1-40
 4311,name_2,PF susita o,Kudla,15,1-40
 4312,name_2,None,None,None,None
@@ -4351,25 +4351,25 @@ frame,serving,name_1,_name2,score_1,score_2
 4349,name_2,None,_> Kudla,None,1-40
 4350,name_2,Sugita o,_*Kudla,15-5,1-40
 4351,name_2,Sugita o,Kudla,15-5,1-40
-4352,name_2,Sugita o,_’ Kudla,15-5,1-40
-4353,name_2,Sugita o,_’ Kudla,15-5,1-40
+4352,name_2,Sugita o,_Ã¢ÂÂ Kudla,15-5,1-40
+4353,name_2,Sugita o,_Ã¢ÂÂ Kudla,15-5,1-40
 4354,name_2,Sugita o,Kudla,15-5,1-40
 4355,name_2,Sugita o,_* Kudla,15-5,1-40
 4356,name_2,Sugita o,_* Kudla,15-5,1-40
 4357,name_2,Sugita o,_* Kudla,15-5,1-40
-4358,name_2,Sugita o,_” Kudla,15-5,1-40
+4358,name_2,Sugita o,_Ã¢ÂÂ Kudla,15-5,1-40
 4359,name_1,Sugita o,Kudla,15-5,1-40
 4360,name_1,Sugita o,Kudla,15-4,1-40
 4361,name_2,t Sugita o,Kudla,18,1-40
 4362,name_2,a sugita o,_ Kudla,15,1-40
-4363,name_2,None,_» Kudla,None,1-40
-4364,name_2,None,_» Kudla,None,1-40
-4365,name_2,None,_» Kudla,None,1-40
-4366,name_2,_ Sugita o,_» Kudla,15,1-40
-4367,name_1,Sugita o,_» Kudla,15,1-40
+4363,name_2,None,_ÃÂ» Kudla,None,1-40
+4364,name_2,None,_ÃÂ» Kudla,None,1-40
+4365,name_2,None,_ÃÂ» Kudla,None,1-40
+4366,name_2,_ Sugita o,_ÃÂ» Kudla,15,1-40
+4367,name_1,Sugita o,_ÃÂ» Kudla,15,1-40
 4368,name_1,Sugita o,Kudla,15,1-40
 4369,name_1,Sugita,Kudla,0-15,1-40
-4370,name_1,Sugita o,_» Kudla,15,1-40
+4370,name_1,Sugita o,_ÃÂ» Kudla,15,1-40
 4371,name_2,None,None,None,None
 4372,name_2,None,None,None,None
 4373,name_2,None,None,None,None
@@ -5361,7 +5361,7 @@ frame,serving,name_1,_name2,score_1,score_2
 5359,name_1,Mannarino,Anderson,3-3-15,6-0-30
 5360,name_1,Mannarino,Anderson,3-3-15,6-0-30
 5361,name_1,Mannarino,Anderson,3-3-15,6-0-30
-5362,name_1,—,Anderson,,6-0-30
+5362,name_1,Ã¢ÂÂ,Anderson,,6-0-30
 5363,name_2,Mannarino,Anderson,3-3-15,6-0-30
 5364,name_2,Mannarino,Anderson,3-3-15,6-0-30
 5365,name_2,Mannarino,Anderson,3-3-15,6-0-30
@@ -5469,16 +5469,16 @@ frame,serving,name_1,_name2,score_1,score_2
 5467,name_1,Mannarino,Anderson,3-3-15,6-0-30
 5468,name_2,Struff,_>*A. Zverev,4-2-40,6-3-40
 5469,name_2,Struff,A. Zverev,4-2-40,6-3-40
-5470,name_2,Struff,_»A. Zverev,4-2-40,6-3-40
+5470,name_2,Struff,_ÃÂ»A. Zverev,4-2-40,6-3-40
 5471,name_2,Struff,_>A. Zverev,4-2-40,6-3-40
 5472,name_2,Struff,_>A.Zverev,4-2-40,6-3-40
 5473,name_2,Struff,_>A.Zverev,4-2-40,6-3-40
-5474,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5475,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
+5474,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5475,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
 5476,name_2,Struff,A. Zverev,4-2-40,6-3-40
 5477,name_2,Struff,A. Zverev,4-2-40,6-3-40
 5478,name_2,Struff,_>A.Zverev,4-2-40,6-3-40
-5479,name_2,Struff,_»A. Zverev,4-2-40,6-3-40
+5479,name_2,Struff,_ÃÂ»A. Zverev,4-2-40,6-3-40
 5480,name_2,Struff,A. Zverev,4-2-40,6-3-40
 5481,name_2,Struff,A. Zverev,4-2-40,6-3-40
 5482,name_2,Struff,_>*A.Zverev,4-2-40,6-3-40
@@ -5495,12 +5495,12 @@ frame,serving,name_1,_name2,score_1,score_2
 5493,name_2,None,_>A. Zverev,None,6-3-40
 5494,name_2,None,None,None,None
 5495,name_2,None,_>A. Zverev,None,6-3-408
-5496,name_2,None,_»A.Zverev,None,6-3-408
-5497,name_2,Struff,_»A.Zverev,4-2-40,6-3-408
-5498,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5499,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5500,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5501,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
+5496,name_2,None,_ÃÂ»A.Zverev,None,6-3-408
+5497,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-408
+5498,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5499,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5500,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5501,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
 5502,name_2,Struff,A. Zverev,42-40,6-3-40
 5503,name_2,Struff,A. Zverev,42-40,6-3-40
 5504,name_2,Struff,A. Zverev,42-40,6-3-40
@@ -5549,146 +5549,146 @@ frame,serving,name_1,_name2,score_1,score_2
 5547,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
 5548,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
 5549,name_2,Struff,_+A.Zverev,4-2-40,6-3-40
-5550,name_2,Struff,_»+A.Zverev,4-2-40,6-3-40
-5551,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5552,name_2,Struff,_»A. Zverev,42-40,6-3-40
-5553,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5554,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5555,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5556,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
+5550,name_2,Struff,_ÃÂ»+A.Zverev,4-2-40,6-3-40
+5551,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5552,name_2,Struff,_ÃÂ»A. Zverev,42-40,6-3-40
+5553,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5554,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5555,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5556,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
 5557,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5558,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5559,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5560,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
-5561,name_2,Struff,_»A. Zverev,4-2-40,6-3-40
-5562,name_2,Struff,_»A. Zverev,4-2-40,6-3-40
+5561,name_2,Struff,_ÃÂ»A. Zverev,4-2-40,6-3-40
+5562,name_2,Struff,_ÃÂ»A. Zverev,4-2-40,6-3-40
 5563,name_2,Struff,_ A. Zverev,4-2-40,6-3-40
-5564,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
+5564,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
 5565,name_2,Struff,_* A. Zverev,4-2-40,6-3-40
-5566,name_2,Struff,_»A. Zverev,4-2-40,6-3-40
-5567,name_2,Struff,_»A. Zverev,4-2-40,6-3-40
-5568,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5569,name_2,Struff,_» A. Zverev,42-40,6-3-40
+5566,name_2,Struff,_ÃÂ»A. Zverev,4-2-40,6-3-40
+5567,name_2,Struff,_ÃÂ»A. Zverev,4-2-40,6-3-40
+5568,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5569,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
 5570,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
 5571,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
-5572,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5573,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5574,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5575,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5576,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5577,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5578,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5579,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
+5572,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5573,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5574,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5575,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5576,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5577,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5578,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5579,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
 5580,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
-5581,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5582,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5583,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5584,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5585,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5586,name_2,Struff,_»A.Zverev,42-409,6-3-40
-5587,name_2,Struff,_»A.Zverev,42-40,6-3-40
+5581,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5582,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5583,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5584,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5585,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5586,name_2,Struff,_ÃÂ»A.Zverev,42-409,6-3-40
+5587,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
 5588,name_2,Struff,_>A.Zverev,4-2-40,6-3-40
-5589,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5590,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5591,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5592,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
+5589,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5590,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5591,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5592,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
 5593,name_2,Struff,A. Zverev,4-2-40,6-3-40
-5594,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5595,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5596,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5597,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5598,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5599,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5600,name_2,Struff,_»+A. Zverev,42-40,6-3-40
-5601,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5602,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5603,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5604,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5605,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5606,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5607,name_2,Struff,_» A. Zverev,42-40,6-3-40
+5594,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5595,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5596,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5597,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5598,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5599,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5600,name_2,Struff,_ÃÂ»+A. Zverev,42-40,6-3-40
+5601,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5602,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5603,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5604,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5605,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5606,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5607,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
 5608,name_2,Struff,_ A. Zverev,42-40,6-3-40
-5609,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5610,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5611,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5612,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5613,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5614,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5615,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5616,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5617,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5618,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5619,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5620,name_2,Struff,_» A. Zverev,42-40,6-3-40
+5609,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5610,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5611,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5612,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5613,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5614,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5615,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5616,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5617,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5618,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5619,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5620,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
 5621,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
-5622,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5623,name_2,Struff,_»+A.Zverev,4-2-40,6-3-40
+5622,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5623,name_2,Struff,_ÃÂ»+A.Zverev,4-2-40,6-3-40
 5624,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5625,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
-5626,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5627,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5628,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5629,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5630,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5631,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5632,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5633,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5634,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5635,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5636,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5637,name_2,Struff,_»A.Zverev,42-40,6-3-40
+5626,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5627,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5628,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5629,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5630,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5631,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5632,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5633,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5634,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5635,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5636,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5637,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
 5638,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5639,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5640,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
-5641,name_2,Struff,_»+A. Zverev,4-2-40,6-3-40
+5641,name_2,Struff,_ÃÂ»+A. Zverev,4-2-40,6-3-40
 5642,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5643,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
 5644,name_2,Struff,_*A. Zverev,4-2-40,6-3-40
-5645,name_2,Struff,_»A. Zverev,42-40,6-3-40
-5646,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5647,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5648,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5649,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5650,name_2,Struff,_»A.Zverev,42-40,6-3-40
-5651,name_2,Struff,_»A.Zverev,4-2-40,6-3-40
-5652,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5653,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5654,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5655,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5656,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5657,name_1,—,_» A. Zverev,,6-3-40
+5645,name_2,Struff,_ÃÂ»A. Zverev,42-40,6-3-40
+5646,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5647,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5648,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5649,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5650,name_2,Struff,_ÃÂ»A.Zverev,42-40,6-3-40
+5651,name_2,Struff,_ÃÂ»A.Zverev,4-2-40,6-3-40
+5652,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5653,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5654,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5655,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5656,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5657,name_1,Ã¢ÂÂ,_ÃÂ» A. Zverev,,6-3-40
 5658,name_2,Struff,_v A. Zverev,4-2-40,6-3-40
 5659,name_2,Struff,_v A. Zverev,4-2-40,6-3-40
-5660,name_2,Struff,_» A. Zverev,4-2-40,6-3-40
-5661,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5662,name_1,_,_» A. Zverev,,6-3-40
-5663,name_1,_,_» A. Zverev,,6-3-40
-5664,name_2,Struff,_» A. Zverev,42-40,6-3-40
-5665,name_2,Struff,_» A. Zverev,42-40,6-3-40
+5660,name_2,Struff,_ÃÂ» A. Zverev,4-2-40,6-3-40
+5661,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5662,name_1,_,_ÃÂ» A. Zverev,,6-3-40
+5663,name_1,_,_ÃÂ» A. Zverev,,6-3-40
+5664,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
+5665,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
 5666,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
 5667,name_2,Struff,_*A.Zverev,4-2-40,6-3-40
-5668,name_2,Struff,_» A. Zverev,42-40,6-3-40
+5668,name_2,Struff,_ÃÂ» A. Zverev,42-40,6-3-40
 5669,name_2,None,_>A.Zverev,None,6-3-40
 5670,name_2,None,_>A.Zverev,None,6-3-40
 5671,name_2,None,_>A.Zverev,None,6-3-40
-5672,name_2,None,_»A.Zverev,None,6-3-40
-5673,name_1,_——_— oar,_>A.Zverev,,6-3-40
-5674,name_1,_— aa,_>A.Zverev,,6-3-40
+5672,name_2,None,_ÃÂ»A.Zverev,None,6-3-40
+5673,name_1,_Ã¢ÂÂÃ¢ÂÂ_Ã¢ÂÂ oar,_>A.Zverev,,6-3-40
+5674,name_1,_Ã¢ÂÂ aa,_>A.Zverev,,6-3-40
 5675,name_2,None,_>A.Zverev,None,6-3-40
-5676,name_1,_,_»A.Zverev,,6-3-40
-5677,name_1,_,_»A.Zverev,,6-3-40
-5678,name_1,_———_—___ eoenn@Wr,_»A.Zverev,,6-3-40
-5679,name_1,_———_—_____ eornTar,_»A.Zverev,,6-3-40
-5680,name_2,None,_»A.Zverev,None,6-3-40
-5681,name_2,None,_»A.Zverev,None,6-3-40
+5676,name_1,_,_ÃÂ»A.Zverev,,6-3-40
+5677,name_1,_,_ÃÂ»A.Zverev,,6-3-40
+5678,name_1,_Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ_Ã¢ÂÂ___ eoenn@Wr,_ÃÂ»A.Zverev,,6-3-40
+5679,name_1,_Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ_Ã¢ÂÂ_____ eornTar,_ÃÂ»A.Zverev,,6-3-40
+5680,name_2,None,_ÃÂ»A.Zverev,None,6-3-40
+5681,name_2,None,_ÃÂ»A.Zverev,None,6-3-40
 5682,name_2,None,_-A.Zverev,None,6-3-40
-5683,name_2,None,_-’A.Zverev,None,6-3-40
-5684,name_2,None,_-’A.Zverev,None,6-3-40
-5685,name_2,None,_»A.Zverev,None,6-3-40
-5686,name_2,None,_»A.Zverev,None,6-3-40
-5687,name_2,None,_»A.Zverev,None,6-3-40
-5688,name_1,_——  ——a,_»A.Zverev,,6-3-40
-5689,name_1,_——  ——a,_»A.Zverev,,6-3-40
+5683,name_2,None,_-Ã¢ÂÂA.Zverev,None,6-3-40
+5684,name_2,None,_-Ã¢ÂÂA.Zverev,None,6-3-40
+5685,name_2,None,_ÃÂ»A.Zverev,None,6-3-40
+5686,name_2,None,_ÃÂ»A.Zverev,None,6-3-40
+5687,name_2,None,_ÃÂ»A.Zverev,None,6-3-40
+5688,name_1,_Ã¢ÂÂÃ¢ÂÂ  Ã¢ÂÂÃ¢ÂÂa,_ÃÂ»A.Zverev,,6-3-40
+5689,name_1,_Ã¢ÂÂÃ¢ÂÂ  Ã¢ÂÂÃ¢ÂÂa,_ÃÂ»A.Zverev,,6-3-40
 5690,name_2,None,_>+A.Zverev,None,6-3-40
 5691,name_2,None,None,None,None
 5692,name_2,None,None,None,None
@@ -7056,54 +7056,54 @@ frame,serving,name_1,_name2,score_1,score_2
 7054,name_2,Kyrgios,B rurray,115,715
 7055,name_2,Kyrgios,Murray,1-15,1115
 7056,name_2,None,Murray ly,None,15
-7057,name_1, ,Murray,,115
+7057,name_1,,Murray,,115
 7058,name_2,Kyrgios,Murray,1115,115
-7059,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7060,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7061,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7062,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7063,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7064,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7065,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7066,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7067,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7059,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7060,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7061,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7062,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7063,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7064,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7065,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7066,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7067,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7068,name_1,Gasquet,_,3-407,405
-7069,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7070,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7071,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7072,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7073,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7074,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7075,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7076,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7077,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7078,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7079,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7080,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7081,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7082,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7083,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7084,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7085,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7086,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7087,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7088,name_1,Gasquet,_» A. Zverev,3-40,1-40
+7069,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7070,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7071,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7072,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7073,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7074,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7075,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7076,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7077,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7078,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7079,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7080,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7081,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7082,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7083,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7084,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7085,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7086,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7087,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7088,name_1,Gasquet,_ÃÂ» A. Zverev,3-40,1-40
 7089,name_1,Gasquet,es,3-407,
 7090,name_1,Gasquet,A.Zverev,3-407,1-40
-7091,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7092,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7091,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7092,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7093,name_1,Gasquet,A.Zverev,3-407,1-40
-7094,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7095,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7094,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7095,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7096,name_2,Gasquet,_> A. Zverev,3-407,1-40
 7097,name_1,Gasquet,A.Zverev,3-407,1-40
-7098,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7098,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7099,name_1,Gasquet,A.Zverev,3-407,1-40
-7100,name_2,Gasquet,_» A. Zverev,3-407,1-40
+7100,name_2,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7101,name_1,Gasquet,A.Zverev,3-407,1-40
 7102,name_1,Gasquet,_* A. Zverev,3-40,1-40
 7103,name_1,Gasquet,_* A. Zverev,3-407,1-40
-7104,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7104,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7105,name_1,Gasquet,_+A.Zverev,3-407,1-40
 7106,name_1,Gasquet,A.Zverev,3-407,1-40
 7107,name_1,Gasquet,_+A.Zverev,3-40,1-40
@@ -7117,46 +7117,46 @@ frame,serving,name_1,_name2,score_1,score_2
 7115,name_1,Gasquet,A.Zverev,3-407,1-40
 7116,name_1,Gasquet,_-A.Zverev,3-407,1-40
 7117,name_1,Gasquet,A.Zverev,3-407,1-40
-7118,name_2,Gasquet,_» A. Zverev,3-407,1-40
+7118,name_2,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7119,name_1,Gasquet,A.Zverev,3-407,1-40
-7120,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7121,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7120,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7121,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7122,name_1,Gasquet,_> A. Zverev,3-407,1-40
 7123,name_1,Gasquet,_ A. Zverev,3-40,1-40
 7124,name_1,Gasquet,_> A. Zverev,3-407,1-40
 7125,name_1,Gasquet,_> A. Zverev,3-407,1-40
 7126,name_1,Gasquet,_> A. Zverev,3-407,1-40
-7127,name_1,Gasquet,_» A. Zverev,3-407,140
-7128,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7129,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7127,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,140
+7128,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7129,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7130,name_1,Gasquet,_> A. Zverev,3-407,1-40
-7131,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7132,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7133,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7131,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7132,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7133,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7134,name_1,Gasquet,_-A.Zverev,3-40-7,1-40
 7135,name_1,Gasquet,_-A.Zverev,3-407,1-40
-7136,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7137,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7138,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7136,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7137,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7138,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7139,name_1,Gasquet,_* A. Zverev,3-407,1-40
-7140,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7141,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7142,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7143,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7144,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7145,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7146,name_1,Gasquet,_» A. Zverev,3-40-7,1-40
-7147,name_1,Gasquet,_» A. Zverev,3-407,1-40
+7140,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7141,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7142,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7143,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7144,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7145,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7146,name_1,Gasquet,_ÃÂ» A. Zverev,3-40-7,1-40
+7147,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
 7148,name_1,Gasquet,_> A. Zverev,3-407,1-40
-7149,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7150,name_1,Gasquet,_» A. Zverev,3-407,1-40
-7151,name_2,None,_» A. Zverev,None,1-40
-7152,name_2,None,_» A. Zverev,None,1-40
-7153,name_2,None,_» A. Zverev,None,1-40
-7154,name_2,None,_» A. Zverev,None,1-40
+7149,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7150,name_1,Gasquet,_ÃÂ» A. Zverev,3-407,1-40
+7151,name_2,None,_ÃÂ» A. Zverev,None,1-40
+7152,name_2,None,_ÃÂ» A. Zverev,None,1-40
+7153,name_2,None,_ÃÂ» A. Zverev,None,1-40
+7154,name_2,None,_ÃÂ» A. Zverev,None,1-40
 7155,name_2,None,_,None,
-7156,name_1,Gasquet,_» A. Zverev,3-40,1-40
-7157,name_1,Gasquet,_» A. Zverev,3-40,1-40
+7156,name_1,Gasquet,_ÃÂ» A. Zverev,3-40,1-40
+7157,name_1,Gasquet,_ÃÂ» A. Zverev,3-40,1-40
 7158,name_2,None,None,None,None
 7159,name_2,None,None,None,None
 7160,name_2,None,None,None,None
@@ -7493,7 +7493,7 @@ frame,serving,name_1,_name2,score_1,score_2
 7491,name_2,None,None,None,None
 7492,name_2,None,None,None,None
 7493,name_2,None,None,None,None
-7494,name_1, ,None,93,None
+7494,name_1,,None,93,None
 7495,name_2,None,None,None,None
 7496,name_2,None,None,None,None
 7497,name_2,None,None,None,None
@@ -7573,10 +7573,10 @@ frame,serving,name_1,_name2,score_1,score_2
 7571,name_2,None,Djokovic,None,37-0
 7572,name_2,None,None,None,None
 7573,name_2,None,Djokovic,None,37-0
-7574,name_1, ,f* Djokovic,,37-0
-7575,name_1, ,Djokovic,,37-0
+7574,name_1,,f* Djokovic,,37-0
+7575,name_1,,Djokovic,,37-0
 7576,name_2,None,Djokovic,None,3-7-0
-7577,name_2,None,fv» Djokovic,None,37-0
+7577,name_2,None,fvÃÂ» Djokovic,None,37-0
 7578,name_2,None,Djokovic,None,37-0
 7579,name_2,None,Djokovic,None,37-0
 7580,name_2,None,Djokovic,None,37-0
@@ -7848,7 +7848,7 @@ frame,serving,name_1,_name2,score_1,score_2
 7846,name_2,None,Djokovic,None,37-0
 7847,name_2,None,Djokovic,None,37-0
 7848,name_2,None,Djokovic,None,37-0
-7849,name_1, ,Djokovic,4,37-0
+7849,name_1,,Djokovic,4,37-0
 7850,name_2,None,Djokovic,None,37-0
 7851,name_2,None,Djokovic,None,37-0
 7852,name_2,None,Djokovic,None,37-0
@@ -8726,7 +8726,7 @@ frame,serving,name_1,_name2,score_1,score_2
 8724,name_2,Shapovalov,Chung,63-1-15,36-0-30
 8725,name_2,Shapovalov,Chung,63-1-15,360-30
 8726,name_2,Shapovalov,Chung,63-1-15,360-30
-8727,name_2,Shapovalov,—,63-1-15,
+8727,name_2,Shapovalov,Ã¢ÂÂ,63-1-15,
 8728,name_2,Shapovalov,Chung,63-1-15,36-0-30
 8729,name_2,Shapovalov,Chung,63-1-15,36-0-30
 8730,name_2,Shapovalov,Chung,63-1-15,36-0-30
@@ -9013,7 +9013,7 @@ frame,serving,name_1,_name2,score_1,score_2
 9011,name_2,None,None,None,None
 9012,name_2,None,None,None,None
 9013,name_2,None,None,None,None
-9014,name_1, ,per Kukushkin,461-30,64-2-40
+9014,name_1,,per Kukushkin,461-30,64-2-40
 9015,name_2,None,None,None,None
 9016,name_2,None,None,None,None
 9017,name_2,None,None,None,None
@@ -9932,7 +9932,7 @@ frame,serving,name_1,_name2,score_1,score_2
 9930,name_1,Kudla,Tsitsipas,61-15,3-1-30
 9931,name_1,Kudla,Tsitsipas,61-15,3-1-30
 9932,name_2,None,Tsitsipas,None,3-1-30
-9933,name_2,Kudla,gy” Tsitsipas,6-1-15,3-1-30
+9933,name_2,Kudla,gyÃ¢ÂÂ Tsitsipas,6-1-15,3-1-30
 9934,name_2,Kudla,pp Tsitsipas,61-15,3-1-30
 9935,name_2,Kudla,Tsitsipas,61-15,3-1-30
 9936,name_1,Kudla,Tsitsipas,6115,3-1-30
@@ -9943,7 +9943,7 @@ frame,serving,name_1,_name2,score_1,score_2
 9941,name_1,Kudla,Tsitsipas,61-15,3-1-30
 9942,name_1,Kudla,Tsitsipas,61-15,3-1-30
 9943,name_2,Kudla,Tsitsipas,61-15,3-1-30
-9944,name_2,Kudla,ma” Tsitsipas,61-15,3-1-30
+9944,name_2,Kudla,maÃ¢ÂÂ Tsitsipas,61-15,3-1-30
 9945,name_2,Kudla,a Tsitsipas,61-15,3-1-30
 9946,name_2,None,a? Tsitsipas,None,3-1-30
 9947,name_1,Kudla,a? Tsitsipas,61-15,3-1-30
@@ -9992,7 +9992,7 @@ frame,serving,name_1,_name2,score_1,score_2
 9990,name_1,kudla,Tsitsipas,6115,3-1-30
 9991,name_1,Kudla,Tsitsipas,61-15,3-1-30
 9992,name_2,Kudla,Tsitsipas,61-15,3-1-30
-9993,name_2,_—_— —_—_——<Xx,Tsitsipas,,3-1-30
+9993,name_2,_Ã¢ÂÂ_Ã¢ÂÂ Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂÃ¢ÂÂ<Xx,Tsitsipas,,3-1-30
 9994,name_2,Kudla,Tsitsipas,61-15,3-1-30
 9995,name_1,Kudla,Tsitsipas,61-15,3-1-30
 9996,name_2,None,Tsitsipas,None,3-1-30
@@ -11477,13 +11477,13 @@ frame,serving,name_1,_name2,score_1,score_2
 11475,name_1,-,Djokovic,7,75-4-15
 11476,name_1,-,Djokovic,7,75-4-15
 11477,name_1,-,Djokovic,7,75-4-15
-11478,name_1, ,Djokovic,4,75-4-15
-11479,name_1, ,Djokovic,4,75-4-15
-11480,name_1, ,Djokovic,4,75-4-15
-11481,name_1, ,Djokovic,4,75-4-15
-11482,name_1, ,Djokovic,4,75-4-15
+11478,name_1,,Djokovic,4,75-4-15
+11479,name_1,,Djokovic,4,75-4-15
+11480,name_1,,Djokovic,4,75-4-15
+11481,name_1,,Djokovic,4,75-4-15
+11482,name_1,,Djokovic,4,75-4-15
 11483,name_1,Federer,Djokovic,67-4-15,75-4-15
-11484,name_1, ,Djokovic,4,75-4-15
+11484,name_1,,Djokovic,4,75-4-15
 11485,name_2,Federer,Djokovic,67-4-15,75-4-15
 11486,name_2,Federer,Djokovic,67-4-15,75-4-15
 11487,name_2,Federer,Djokovic,67-4-15,75-4-15
@@ -12161,7 +12161,7 @@ frame,serving,name_1,_name2,score_1,score_2
 12159,name_1,DeMinaur,Rublev,4-40,5-0
 12160,name_1,DeMinaur,Rublev,4-40,5-0
 12161,name_1,DeMinaur,Rublev,4-40,5-0
-12162,name_1,DeMinaur,Rublev § O,4-40,48
+12162,name_1,DeMinaur,Rublev ÃÂ§ O,4-40,48
 12163,name_1,DeMinaur,None,4-40,None
 12164,name_1,DeMinaur,Rublev,4-40,5-0
 12165,name_1,DeMinaur,None,4-40,None
@@ -12189,9 +12189,9 @@ frame,serving,name_1,_name2,score_1,score_2
 12187,name_1,DeMinaur,None,4-40,None
 12188,name_1,DeMinaur,None,4-40,None
 12189,name_1,DeMinaur,Rublev,4-40,5-0
-12190,name_1,DeMinaur,Rublev § O,4-40,
-12191,name_1,DeMinaur,Rublev § O,4-40,
-12192,name_1,DeMinaur,Rublev § O,4-40,
+12190,name_1,DeMinaur,Rublev ÃÂ§ O,4-40,
+12191,name_1,DeMinaur,Rublev ÃÂ§ O,4-40,
+12192,name_1,DeMinaur,Rublev ÃÂ§ O,4-40,
 12193,name_1,DeMinaur,Rublev,4-40,5-0
 12194,name_1,DeMinaur,Rublev,4-40,5-0
 12195,name_1,DeMinaur,Rublev,4-40,5-0
@@ -12605,7 +12605,7 @@ frame,serving,name_1,_name2,score_1,score_2
 12603,name_1,Federer,Chardy,72-40,53-0
 12604,name_2,None,None,None,None
 12605,name_2,None,None,None,None
-12606,name_2,Federer,_ rr t—“<“‘(i ll r”*"E,73,
+12606,name_2,Federer,None,73,None
 12607,name_2,Federer,Chardy,73,5-3
 12608,name_2,Federer,Chardy,73,5-3
 12609,name_2,Federer,Chardy,7-3,5-3
@@ -14484,7 +14484,7 @@ frame,serving,name_1,_name2,score_1,score_2
 14482,name_1,Bedene,Carreno Busta,450,6-5-15
 14483,name_1,Bedene,Carreno Busta,450,6-5-15
 14484,name_1,Bedene,Carreno Busta,45-0,6-5-15
-14485,name_2,D.. Bedene,i» Carreno Busta,45-0,6-5-15
+14485,name_2,D.. Bedene,iÃÂ» Carreno Busta,45-0,6-5-15
 14486,name_2,D.. Bedene,Carreno Busta,45-0,6-5-15
 14487,name_2,DB. Bedene,Carreno Busta,45-0,6-5-15
 14488,name_2,D.. Bedene,Carreno Busta,45-0,6-15
@@ -14509,7 +14509,7 @@ frame,serving,name_1,_name2,score_1,score_2
 14507,name_1,Bedene,Carreno Busta,45-0,6-5-15
 14508,name_1,Bedene,Carreno Busta,45-0,6-5-15
 14509,name_2,RB. Bedene,Carreno Busta,45-0,6-5-15
-14510,name_2,B.. Bedene,i» Carreno Busta,45-0,6-5-15
+14510,name_2,B.. Bedene,iÃÂ» Carreno Busta,45-0,6-5-15
 14511,name_2,B.. Bedene,Carreno Busta,45-0,6-5-15
 14512,name_2,B.. Bedene,Carreno Busta,45-0,6-5-15
 14513,name_1,_ Bedene,Carreno Busta,45-0,6-5-15
@@ -15023,7 +15023,7 @@ frame,serving,name_1,_name2,score_1,score_2
 15021,name_1,KARLovIC,KYRGIOS,1-30,40
 15022,name_1,KARLOvIC,KYRGIOS,1-30,40
 15023,name_1,KARLOviC,KYRGIOS,1-30,40
-15024,name_1,KARLoviC §=s,KYRGIOS,1-30,4-0
+15024,name_1,KARLoviC ÃÂ§=s,KYRGIOS,1-30,4-0
 15025,name_1,KARLoviC,KYRGIOS,30,40
 15026,name_1,KARLoviC,KYRGIOS,30,40
 15027,name_1,KARLoviC,KYRGIOS,30,40
@@ -15830,7 +15830,7 @@ frame,serving,name_1,_name2,score_1,score_2
 15828,name_2,None,None,None,None
 15829,name_2,Nadal,Monfils,6,1
 15830,name_2,Nadal,Monfils,65,1
-15831,name_2,Nadal,_” Monfils,6,7
+15831,name_2,Nadal,_Ã¢ÂÂ Monfils,6,7
 15832,name_2,Nadal,Monfils,6,7
 15833,name_2,Nadal,Monfils,6,7
 15834,name_1,_ oo,Monfils,,7
@@ -15869,9 +15869,9 @@ frame,serving,name_1,_name2,score_1,score_2
 15867,name_2,Nadal,Monfils,65-15,110
 15868,name_2,Nadal,Monfils,65-15,10
 15869,name_2,Nadal,Monfils,6-5-18,10
-15870,name_2,Nadal,__» Monfils,6-5-18,10
-15871,name_2,Nadal,_» Monfils,6-5-18,10
-15872,name_2,None,_» Monfils,None,1-0
+15870,name_2,Nadal,__ÃÂ» Monfils,6-5-18,10
+15871,name_2,Nadal,_ÃÂ» Monfils,6-5-18,10
+15872,name_2,None,_ÃÂ» Monfils,None,1-0
 15873,name_2,Nadal,Monfils,6-5-18,1-0
 15874,name_2,Nadal,Monfils,6-5-18,1-0
 15875,name_2,Nadal,Monfils,6-5-18,1-0
@@ -15893,7 +15893,7 @@ frame,serving,name_1,_name2,score_1,score_2
 15891,name_2,Nadal,Monfils,6-5-15,10
 15892,name_2,Nadal,Monfils,6-5-15,10
 15893,name_2,Nadal,Monfils,6-5-15,10
-15894,name_2,Nadal,a’ Monfils,6-5-15,10
+15894,name_2,Nadal,aÃ¢ÂÂ Monfils,6-5-15,10
 15895,name_2,Nadal,Monfils,6-5-15,10
 15896,name_2,Nadal,Monfils,65-15,1-0
 15897,name_1,Nadal,Monfils,65-15,10
@@ -16376,7 +16376,7 @@ frame,serving,name_1,_name2,score_1,score_2
 16374,name_2,an,Nishikori,2,2-0-30-7
 16375,name_2,None,Del Potro,None,6-1-40
 16376,name_2,None,Nishikori,None,2-0-307
-16377,name_2,r —- ae,_ Nishikori,,2-0-307
+16377,name_2,r Ã¢ÂÂ- ae,_ Nishikori,,2-0-307
 16378,name_2,Del Potro,Nishikori,6-1-40,2-0-30
 16379,name_2,None,Nishikori,None,2-0-30
 16380,name_2,y*Del Potro,Nishikori,6-1-40,2-0-301
@@ -16406,7 +16406,7 @@ frame,serving,name_1,_name2,score_1,score_2
 16404,name_1,Del Potro,Nishikori,6-1-40,2-0-30
 16405,name_2,None,Nishikori,None,2-0-30
 16406,name_1,Del Potro,Nishikori,6-1-40,2-0-30
-16407,name_1,_—_— Tz,Nishikori,,2-0-30
+16407,name_1,_Ã¢ÂÂ_Ã¢ÂÂ Tz,Nishikori,,2-0-30
 16408,name_2,None,Nishikori,None,2-0-30
 16409,name_1,Del Potro,Nishikori,6-1-20,2-0-30
 16410,name_1,Del Potro,Nishikori,6-1-20,2-0-30
@@ -16941,7 +16941,7 @@ frame,serving,name_1,_name2,score_1,score_2
 16939,name_2,None,f Isner,None,6-5
 16940,name_2,None,I Isner,None,6-5
 16941,name_2,None,None,None,None
-16942,name_2,r...-—:—=i‘(i‘(c.t,Isner,,65
+16942,name_2,r...-Ã¢ÂÂ:Ã¢ÂÂ=iÃ¢ÂÂ(iÃ¢ÂÂ(c.t,Isner,,65
 16943,name_2,None,Isner,None,6-5
 16944,name_2,None,Isner,None,6
 16945,name_2,None,Pata,None,6
@@ -17012,7 +17012,7 @@ frame,serving,name_1,_name2,score_1,score_2
 17010,name_2,A. Zverev,Isner,7-4-40,6-5-40
 17011,name_2,A. Zverev,Isner,7-4-40,6-5-40
 17012,name_2,A. Zverev,Isner,7-4-40,6-5-40
-17013,name_2,A. Zverev, ,7-4-40,
+17013,name_2,A. Zverev,,7-4-40,
 17014,name_2,A. Zverev,Isner,7-4-40,6-5-40
 17015,name_2,A. Zverev,None,7-4-40,None
 17016,name_2,A. Zverev,Isner,7-4-40,6-5-404
@@ -17388,7 +17388,7 @@ frame,serving,name_1,_name2,score_1,score_2
 17386,name_1,Paire o,Nishikori,15,3-40
 17387,name_1,Paire o,Nishikori,15,3-40
 17388,name_1,Paire,Nishikori,0-15,3-40
-17389,name_1,Paire ey,Nishikor’ kz,15,40
+17389,name_1,Paire ey,NishikorÃ¢ÂÂ kz,15,40
 17390,name_2,None,None,None,None
 17391,name_2,None,None,None,None
 17392,name_2,None,None,None,None
@@ -17482,7 +17482,7 @@ frame,serving,name_1,_name2,score_1,score_2
 17480,name_2,By Tsitsipas,Chardy,640,2415
 17481,name_2,BF tsitsipas,Chardy,640,2415
 17482,name_2,B tsitsipas,Chardy,640,2415
-17483,name_1, ,Chardy,,2415
+17483,name_1,,Chardy,,2415
 17484,name_1,Tsitsipas,Chardy,640,2415
 17485,name_2,Tsitsipas,Chardy,640,2415
 17486,name_2,Tsitsipas,y Chardy,640,2415
@@ -17504,7 +17504,7 @@ frame,serving,name_1,_name2,score_1,score_2
 17502,name_2,Tsitsipas,m= Chardy,640,2415
 17503,name_2,Tsitsipas,peo Chardy,640,2415
 17504,name_1,Tsitsipas,Chardy,640,24-18
-17505,name_2,q Tsitsipas,PB» Chardy,640,24-18
+17505,name_2,q Tsitsipas,PBÃÂ» Chardy,640,24-18
 17506,name_2,Tsitsipas,B Chardy,640,2415
 17507,name_2,Tsitsipas,Chardy,640,2415
 17508,name_2,Af isitsipas,Chardy,640,2415
@@ -17712,7 +17712,7 @@ frame,serving,name_1,_name2,score_1,score_2
 17710,name_2,fvsitsipas,Chardy,640,2-4-30
 17711,name_2,None,Chardy,None,2-4-30
 17712,name_2,None,Chardy,None,2-4-30
-17713,name_2,g Tsitsipas,a’ Chardy,6-4-0,24-304
+17713,name_2,g Tsitsipas,aÃ¢ÂÂ Chardy,6-4-0,24-304
 17714,name_1,Tsitsipas,Chardy,64-0-4,2-4-30
 17715,name_1,Tsitsipas,Chardy,640,2-4-30
 17716,name_2,None,Chardy,None,2-4-30
@@ -18289,9 +18289,9 @@ frame,serving,name_1,_name2,score_1,score_2
 18287,name_2,A. Zverev,M. Zverev,6-1-30,3-130
 18288,name_2,A. Zverev,M. Zverev,6-1-30,3-1-30
 18289,name_2,_,M. Zverev,,3-1-30
-18290,name_1,—,M. Zverev,,3-1-30
+18290,name_1,Ã¢ÂÂ,M. Zverev,,3-1-30
 18291,name_2,A. Zverev,M. Zverev,6-1-30,3-1-30
-18292,name_1,Ssé‘é;PSS:™S,M. Zverev,,3-1-30
+18292,name_1,SsÃÂ©Ã¢ÂÂÃÂ©;PSS:Ã¢ÂÂ¢S,M. Zverev,,3-1-30
 18293,name_2,A. Zverev,M. Zverev,6-1-30,3-1-30
 18294,name_2,A. Zverev,M. Zverev,6-1-30,3-1-30
 18295,name_2,A. Zverev,M. Zverev,6-1-30,3-1-30
@@ -20015,7 +20015,7 @@ frame,serving,name_1,_name2,score_1,score_2
 20013,name_2,Wawrinka,Federer,764,6-6-5
 20014,name_2,Wawrinka,Federer,7-6-4,665
 20015,name_2,Wawrinka,Federer,7-6-4,665
-20016,name_2,Wawrinka,—,76-4,
+20016,name_2,Wawrinka,Ã¢ÂÂ,76-4,
 20017,name_2,Wawrinka,None,7-6-4,None
 20018,name_2,Wawrinka,Federer,7-6-4,6654
 20019,name_2,None,Federer,None,665
@@ -20033,7 +20033,7 @@ frame,serving,name_1,_name2,score_1,score_2
 20031,name_2,Wawrinka,Federer,7-6-4,665
 20032,name_2,None,Wawrinka,None,764
 20033,name_1,_,Federer,,665
-20034,name_1, ,Federer,,665
+20034,name_1,,Federer,,665
 20035,name_2,Wawrinka,Federer,764,665
 20036,name_2,None,Federer,None,665
 20037,name_1,_,Federer,,6-6-5
@@ -20045,13 +20045,13 @@ frame,serving,name_1,_name2,score_1,score_2
 20043,name_2,Wawrinka,Federer,764,665
 20044,name_2,Wawrinka,Federer,764,665
 20045,name_2,Wawrinka,Federer,764,665
-20046,name_1, ,Federer,2,665
+20046,name_1,,Federer,2,665
 20047,name_1,_,Federer,,665
 20048,name_1,_,Wawrinka,,764
 20049,name_1,_,Wawrinka,,764
 20050,name_2,Wawrinka,None,764,None
 20051,name_2,Wawrinka,None,764,None
-20052,name_1, ,Wawrinka,2,764
+20052,name_1,,Wawrinka,2,764
 20053,name_2,Wawrinka,None,764,None
 20054,name_2,None,Wawrinka,None,764
 20055,name_2,Wawrinka,Federer,76-4,6655
@@ -20471,7 +20471,7 @@ frame,serving,name_1,_name2,score_1,score_2
 20469,name_2,Wawrinka,Federer,7-6-4,665
 20470,name_2,None,None,None,None
 20471,name_2,Wawrinka,Federer,7-6-4,66-5
-20472,name_1, ,Federer,4,6-6-5
+20472,name_1,,Federer,4,6-6-5
 20473,name_2,None,Federer,None,665
 20474,name_2,Wawrinka,Federer,7-6-4,665
 20475,name_2,None,Federer,None,665
@@ -20716,9 +20716,9 @@ frame,serving,name_1,_name2,score_1,score_2
 20714,name_2,Wawrinka,Federer,7-6-4,665
 20715,name_2,Wawrinka,Federer,7-6-4,665
 20716,name_1,a,Federer,,665
-20717,name_1, ,Federer,8,665
-20718,name_1, ,Federer,8,665
-20719,name_1, ,Federer,8,665
+20717,name_1,,Federer,8,665
+20718,name_1,,Federer,8,665
+20719,name_1,,Federer,8,665
 20720,name_2,None,Federer,None,665
 20721,name_2,None,Federer,None,665
 20722,name_2,None,Federer,None,665
@@ -20759,16 +20759,16 @@ frame,serving,name_1,_name2,score_1,score_2
 20757,name_1,a,Federer,,66-5
 20758,name_1,a,Federer,,665
 20759,name_1,a,Federer,,665
-20760,name_1, ,Federer,4,665
-20761,name_1, ,Federer,4,66-5
-20762,name_1, ,Federer,4,66-5
-20763,name_1, ,Federer,4,66-5
-20764,name_1, ,Federer,4,66-5
-20765,name_1, ,Federer,4,665
-20766,name_1, ,Federer,4,66-5
-20767,name_1, ,Federer,4,665
-20768,name_1, ,Federer,4,665
-20769,name_1, ,Federer,4,665
+20760,name_1,,Federer,4,665
+20761,name_1,,Federer,4,66-5
+20762,name_1,,Federer,4,66-5
+20763,name_1,,Federer,4,66-5
+20764,name_1,,Federer,4,66-5
+20765,name_1,,Federer,4,665
+20766,name_1,,Federer,4,66-5
+20767,name_1,,Federer,4,665
+20768,name_1,,Federer,4,665
+20769,name_1,,Federer,4,665
 20770,name_2,Wawrinka,Federer,7-6-4,665
 20771,name_2,Wawrinka,Federer,7-6-4,665
 20772,name_2,Wawrinka,Federer,7-6-4,665
@@ -20800,13 +20800,13 @@ frame,serving,name_1,_name2,score_1,score_2
 20798,name_2,Wawrinka,Federer,7-6-4,665
 20799,name_2,Wawrinka,Federer,7-6-4,665
 20800,name_2,None,Federer,None,665
-20801,name_2,é — at,Federer,,665
-20802,name_2,é — at,Federer,,665
-20803,name_2,é — at,Federer,,665
-20804,name_2,é — at,Federer,,665
-20805,name_2,é — at,Federer,,665
-20806,name_2,é — at,Federer,,665
-20807,name_2,é — at,Federer,,665
+20801,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
+20802,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
+20803,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
+20804,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
+20805,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
+20806,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
+20807,name_2,ÃÂ© Ã¢ÂÂ at,Federer,,665
 20808,name_2,None,Federer,None,665
 20809,name_2,None,Federer,None,665
 20810,name_2,Wawrinka,Federer,7-6-4,665
@@ -21098,7 +21098,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21096,name_2,None,Djokovic,None,76-3-405
 21097,name_2,None,Djokovic,None,76-3-405
 21098,name_2,None,Djokovic,None,76-3-405
-21099,name_1, ,Djokovic,7,76-3-405
+21099,name_1,,Djokovic,7,76-3-405
 21100,name_2,None,Djokovic,None,7-6-3-40
 21101,name_2,None,Djokovic,None,76-3-40
 21102,name_2,None,Djokovic,None,76-3-40
@@ -21121,7 +21121,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21119,name_2,None,Djokovic,None,76-3-40
 21120,name_2,None,Djokovic,None,76-3-40
 21121,name_2,None,Djokovic,None,76-3-40
-21122,name_1,eB “S,Djokovic,,76-3-40
+21122,name_1,eB Ã¢ÂÂS,Djokovic,,76-3-40
 21123,name_2,None,Djokovic,None,7-6-3-40-5
 21124,name_1,_#- <a o,Djokovic,,76-3-40
 21125,name_2,None,Djokovic,None,76-3-40
@@ -21138,9 +21138,9 @@ frame,serving,name_1,_name2,score_1,score_2
 21136,name_1,Cilic,Djokovic,574405,76-3-405
 21137,name_1,Cilic,Djokovic,57-4-405,76-3-405
 21138,name_2,o. | Pe,Djokovic,,76-3-40
-21139,name_1,Cilic,_» Djokovic,57-4-40-5,76-3-405
+21139,name_1,Cilic,_ÃÂ» Djokovic,57-4-40-5,76-3-405
 21140,name_2,None,Djokovic,None,76-3-40
-21141,name_2,Oo,_» Djokovic,,76-3-40
+21141,name_2,Oo,_ÃÂ» Djokovic,,76-3-40
 21142,name_1,Cilic,Djokovic,57-4-40,76-3-40-3
 21143,name_1,Cilic,Djokovic,57-4-40,76-3-40-3
 21144,name_1,Cilic,Djokovic,574-40,76-3-40-3
@@ -21148,7 +21148,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21146,name_1,Cilic,Djokovic,57-4-40,763-40
 21147,name_1,Cilic,Djokovic,57-4-40,763-40
 21148,name_1,Cilic,Djokovic,57-4-40,76-3-40
-21149,name_2,_#. —r,Djokovic,,76-3-40
+21149,name_2,_#. Ã¢ÂÂr,Djokovic,,76-3-40
 21150,name_2,_#. aw,Djokovic,5,76-3-408
 21151,name_1,Cilic,Djokovic,57-4-40,76-3-404
 21152,name_1,Cilic,Djokovic,57-4-40,76-3-40
@@ -21174,7 +21174,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21172,name_2,None,Djokovic,None,7-6-3-40
 21173,name_2,aw wo,Djokovic,4,76-3-40
 21174,name_2,None,Djokovic,None,76-3-40
-21175,name_1,gf ‘ew,Djokovic,,76-3-40
+21175,name_1,gf Ã¢ÂÂew,Djokovic,,76-3-40
 21176,name_2,None,Djokovic,None,76-3-40
 21177,name_1,fF =r,zDiokovic,,7-6-3-40
 21178,name_2,None,Cilic,None,57-4-40
@@ -21199,19 +21199,19 @@ frame,serving,name_1,_name2,score_1,score_2
 21197,name_2,None,Djokovic,None,7-6-3-40
 21198,name_2,None,Djokovic,None,7-6-3-40
 21199,name_1,Cilic,Djokovic,574-403,7-6-3-40
-21200,name_2,None,_» Djokovic,None,76-3-40
+21200,name_2,None,_ÃÂ» Djokovic,None,76-3-40
 21201,name_2,None,Djokovic,None,7-6-3-40
 21202,name_1,Cilic,Djokovic,574-409,76-3-40
 21203,name_2,None,Djokovic,None,7-6-3-40
 21204,name_2,None,Djokovic,None,76-3-40
-21205,name_2,None,_»Djokovic,None,76-3-40
-21206,name_2,ft ge om ote,_»Djokovic,,76-3-40
+21205,name_2,None,_ÃÂ»Djokovic,None,76-3-40
+21206,name_2,ft ge om ote,_ÃÂ»Djokovic,,76-3-40
 21207,name_2,None,Djokovic,None,7-6-3-40
 21208,name_2,None,Djokovic,None,7-6-3-40
 21209,name_2,None,Cilic,None,57-4-40
 21210,name_2,None,Cilic,None,57-4-40
-21211,name_2,None,_» Djokovic,None,7-6-3-40
-21212,name_1,Cilic,_» Djokovic,57-4-40,7-6-3-40
+21211,name_2,None,_ÃÂ» Djokovic,None,7-6-3-40
+21212,name_1,Cilic,_ÃÂ» Djokovic,57-4-40,7-6-3-40
 21213,name_1,Cilic,Djokovic,57-4-40,7-6-3-40
 21214,name_1,Cilic,_? Djokovic,574-405,7-6-3-40
 21215,name_1,Cilic,Djokovic,57-4-40,76-3-40
@@ -21225,7 +21225,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21223,name_2,None,Djokovic,None,76-3-40
 21224,name_2,None,Djokovic,None,76-3-40
 21225,name_2,L fF - alk,Djokovic,,7-6-3-40
-21226,name_2,é Cilic,Djokovic,57-4-40,76-3-40
+21226,name_2,ÃÂ© Cilic,Djokovic,57-4-40,76-3-40
 21227,name_2,None,Djokovic,None,76-3-40
 21228,name_2,Y A,Djokovic,,76-3-40
 21229,name_2,Cilic,Djokovic,57-4-40,76-3-40
@@ -21320,7 +21320,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21318,name_2,None,Djokovic,None,76-3
 21319,name_2,None,Djokovic,None,76-3
 21320,name_2,None,Djokovic,None,76-3
-21321,name_2,reo ——E,Djokovic,,76-3
+21321,name_2,reo Ã¢ÂÂÃ¢ÂÂE,Djokovic,,76-3
 21322,name_2,None,Djokovic,None,76-3
 21323,name_2,None,Djokovic,None,76-3
 21324,name_2,None,Djokovic,None,76-3
@@ -21334,7 +21334,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21332,name_2,None,Djokovic,None,76-3
 21333,name_2,None,p Djokovic,None,76-3
 21334,name_2,None,Djokovic,None,76-3
-21335,name_2,None,gr” Djokovic,None,763
+21335,name_2,None,grÃ¢ÂÂ Djokovic,None,763
 21336,name_2,None,Djokovic,None,76-3
 21337,name_2,None,Djokovic,None,76-3
 21338,name_2,Coric,Djokovic,3-2-30,6-3-30
@@ -21733,7 +21733,7 @@ frame,serving,name_1,_name2,score_1,score_2
 21731,name_2,None,None,None,None
 21732,name_2,fl coric,None,3-2-30,None
 21733,name_1,ee,Djokovic,,6-3-30
-21734,name_1, ,Djokovic,3-2-30,6-3-30
+21734,name_1,,Djokovic,3-2-30,6-3-30
 21735,name_2,Coric,a Djokovic,3-2-30,6-3-30
 21736,name_2,Coric,Djokovic,3-2-30,6-3-30
 21737,name_2,r | Coric,gq Diokovic,3-2-30,6-3-30
@@ -22853,8 +22853,8 @@ frame,serving,name_1,_name2,score_1,score_2
 22851,name_2,fonfils,sitsipas,6-3-40,7-3-15
 22852,name_2,onfils,itsipas,6-3-40,7-3-15
 22853,name_2,fils,sipas,63-40,7-3-15
-22854,name_1, ,as,6-3-40,67-3-15
-22855,name_1, ,None,3-40,None
+22854,name_1,,as,6-3-40,67-3-15
+22855,name_1,,None,3-40,None
 22856,name_2,None,None,None,None
 22857,name_2,None,None,None,None
 22858,name_2,None,None,None,None
@@ -23769,8 +23769,8 @@ frame,serving,name_1,_name2,score_1,score_2
 23767,name_2,None,A. Zverev,None,6-4
 23768,name_2,None,A. Zverev,None,6-4
 23769,name_2,None,A. Zverev,None,6-4
-23770,name_1,_— * a,A. Zverev,,6-4
-23771,name_1, ,None,,None
+23770,name_1,_Ã¢ÂÂ * a,A. Zverev,,6-4
+23771,name_1,,None,,None
 23772,name_2,None,A. Zverev,None,6-4
 23773,name_2,None,A. Zverev,None,6-4
 23774,name_1,A. Zverev,None,6-4,None
@@ -23923,7 +23923,7 @@ frame,serving,name_1,_name2,score_1,score_2
 23921,name_1,Coric,None,6-0-30,None
 23922,name_1,Coric,Zverev,6-0-30,10-30
 23923,name_1,Coric,Zverev,6-0-30,10-30
-23924,name_1,Coric,rt” Zverev,6-0-30,10-30
+23924,name_1,Coric,rtÃ¢ÂÂ Zverev,6-0-30,10-30
 23925,name_1,Coric,qr A. Zverev,6-0-30,1-0-30
 23926,name_1,Coric,qr A. Zverev,6-0-30,1-0-30
 23927,name_1,Coric,qr A. Zverev,6-0-30,1-0-30
@@ -24047,7 +24047,7 @@ frame,serving,name_1,_name2,score_1,score_2
 24045,name_2,None,A. Zverev,None,10-30
 24046,name_2,None,A. Zverev,None,10-30
 24047,name_2,None,A. Zverev,None,10-30
-24048,name_2,_— im,A. Zverev,5,10-30
+24048,name_2,_Ã¢ÂÂ im,A. Zverev,5,10-30
 24049,name_2,Coric,A.Zverev,6-0-30,1-0-30
 24050,name_2,Coric,A.Zverev,6-0-30,1-0-30
 24051,name_2,Coric,A.Zverev,6-0-30,1-0-30
@@ -24111,7 +24111,7 @@ frame,serving,name_1,_name2,score_1,score_2
 24109,name_2,None,A.Zverev,None,1-0-30
 24110,name_2,Coric,A.Zverev,6-0-40,1-0-30
 24111,name_1,_,A.Zverev,,1-0-30
-24112,name_1,“,A.Zverev,,1-0-30
+24112,name_1,Ã¢ÂÂ,A.Zverev,,1-0-30
 24113,name_2,Coric,A.Zverev,6-0-40,1-0-300
 24114,name_1,_,Coric,,6-0-40
 24115,name_2,Coric,A.Zverev,6-0-40,1-0-30
@@ -24801,7 +24801,7 @@ frame,serving,name_1,_name2,score_1,score_2
 24799,name_2,None,Baghdatis,None,3-0-15
 24800,name_2,None,Baghdatis,None,3-0-15
 24801,name_2,None,Baghdatis,None,3-0-15
-24802,name_1,—,Baghdatis,,3-0-15
+24802,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 24803,name_2,None,Baghdatis,None,3-0-15
 24804,name_2,ee,Baghdatis,,3-0-15
 24805,name_2,le,Baghdatis,,3-0-15
@@ -24916,17 +24916,17 @@ frame,serving,name_1,_name2,score_1,score_2
 24914,name_2,None,Baghdatis,None,3-0-15
 24915,name_2,None,Baghdatis,None,3-0-15
 24916,name_2,None,Baghdatis,None,3-0-15
-24917,name_1,—,Baghdatis,,3-0-15
-24918,name_1,—,Baghdatis,,3-0-15
-24919,name_1,—,Baghdatis,,3-0-15
-24920,name_1,—,Baghdatis,,3-0-15
-24921,name_1,—,Baghdatis,,3-0-15
-24922,name_1,—,Baghdatis,,3-0-15
-24923,name_1,—,Baghdatis,,3-0-15
-24924,name_1,—,Baghdatis,,3-0-15
-24925,name_1,—,Baghdatis,,3-0-15
-24926,name_1,—,Baghdatis,,3-0-15
-24927,name_1,—,Baghdatis,,3-0-15
+24917,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24918,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24919,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24920,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24921,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24922,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24923,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24924,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24925,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24926,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+24927,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 24928,name_2,None,Baghdatis,None,3-0-15
 24929,name_2,None,Baghdatis,None,3-0-15
 24930,name_2,None,Baghdatis,None,3-0-15
@@ -25097,19 +25097,19 @@ frame,serving,name_1,_name2,score_1,score_2
 25095,name_2,None,Baghdatis,None,3-0-15
 25096,name_2,None,Baghdatis,None,3-0-15
 25097,name_2,None,Baghdatis,None,3-0-15
-25098,name_1,—,Baghdatis,,3-0-15
-25099,name_1,—,Baghdatis,,3-0-15
+25098,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25099,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25100,name_2,_,Baghdatis,,3-0-15
 25101,name_2,None,Baghdatis,None,3-0-15
 25102,name_2,_,Baghdatis,,3-0-15
-25103,name_1,—,Baghdatis,,3-0-15
-25104,name_1,—,Baghdatis,,3-0-15
-25105,name_1,—,Baghdatis,,3-0-15
-25106,name_1,—,Baghdatis,,3-0-15
-25107,name_1,—,Baghdatis,,3-0-15
+25103,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25104,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25105,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25106,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25107,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25108,name_1,_,Baghdatis,,3-0-15
-25109,name_1,—,Baghdatis,,3-0-15
-25110,name_1,—,Baghdatis,,3-0-15
+25109,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25110,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25111,name_1,_,Baghdatis,,3-0-15
 25112,name_1,_,Baghdatis,,3-0-15
 25113,name_1,_,Baghdatis,,3-0-15
@@ -25134,7 +25134,7 @@ frame,serving,name_1,_name2,score_1,score_2
 25132,name_1,_,Baghdatis,,3-0-15
 25133,name_1,_,Baghdatis,,3-0-15
 25134,name_1,_,Baghdatis,,3-0-15
-25135,name_1,—,Baghdatis,,3-0-15
+25135,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25136,name_1,_,Baghdatis,,3-0-15
 25137,name_1,_,Baghdatis,,3-0-15
 25138,name_1,_,Baghdatis,,3-0-15
@@ -25195,16 +25195,16 @@ frame,serving,name_1,_name2,score_1,score_2
 25193,name_2,None,Baghdatis,None,3-0-15
 25194,name_2,None,Baghdatis,None,3-0-15
 25195,name_2,None,Baghdatis,None,3-0-15
-25196,name_1,—,Baghdatis,,3-0-15
-25197,name_1,—,Baghdatis,,3-0-15
-25198,name_1,—,Baghdatis,,3-0-15
+25196,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25197,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
+25198,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25199,name_2,None,Baghdatis,None,3-0-15
 25200,name_2,None,Baghdatis,None,3-0-15
 25201,name_2,None,Baghdatis,None,3-0-15
 25202,name_2,None,Baghdatis,None,3-0-15
 25203,name_2,None,Baghdatis,None,3-0-15
 25204,name_2,None,Baghdatis,None,3-0-15
-25205,name_2,EE —————S,Baghdatis,,3-0-15
+25205,name_2,EE Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂS,Baghdatis,,3-0-15
 25206,name_2,None,Baghdatis,None,3-0-15
 25207,name_2,None,Baghdatis,None,3-0-15
 25208,name_2,None,Baghdatis,None,3-0-15
@@ -25280,14 +25280,14 @@ frame,serving,name_1,_name2,score_1,score_2
 25278,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
 25279,name_1,_,Baghdatis,,3-0-15
 25280,name_1,_,Baghdatis,,3-0-15
-25281,name_1,—,Baghdatis,,3-0-15
+25281,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25282,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
-25283,name_1,—,Baghdatis,,3-0-15
+25283,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25284,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
 25285,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
 25286,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
 25287,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
-25288,name_1,—,Baghdatis,,3-0-15
+25288,name_1,Ã¢ÂÂ,Baghdatis,,3-0-15
 25289,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
 25290,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
 25291,name_1,Donaldson,Baghdatis,6-0-40,3-0-15
@@ -25556,7 +25556,7 @@ frame,serving,name_1,_name2,score_1,score_2
 25554,name_1,Kovaik,Thiem,6-2-15,7-4-40
 25555,name_2,None,Thiem,None,7-4-40
 25556,name_2,None,Thiem,None,7-4-40
-25557,name_1,—,Thiem,,7-4-40
+25557,name_1,Ã¢ÂÂ,Thiem,,7-4-40
 25558,name_1,Kovaik,Thiem,6-2-15,7-4-40
 25559,name_1,Kovaik,Thiem,6-2-15,7-4-40
 25560,name_1,Kovaik,Thiem,6-2-15,7-4-40
@@ -26467,20 +26467,20 @@ frame,serving,name_1,_name2,score_1,score_2
 26465,name_2,None,Nishikori,None,6-30
 26466,name_1,e,Lopez,,5-30
 26467,name_2,None,Lopez,None,5-30
-26468,name_2,None,A t—étiCSF,None,
+26468,name_2,None,A tÃ¢ÂÂÃÂ©tiCSF,None,
 26469,name_1,_oh,Nishikori,,6-30
-26470,name_1,_— - —e,Nishikori,,6-30
-26471,name_1,_“oL,_” Lopez,,5-30
+26470,name_1,_Ã¢ÂÂ - Ã¢ÂÂe,Nishikori,,6-30
+26471,name_1,_Ã¢ÂÂoL,_Ã¢ÂÂ Lopez,,5-30
 26472,name_2,None,Lopez,None,5-30
-26473,name_2,None,_” Lopez,None,5-30
+26473,name_2,None,_Ã¢ÂÂ Lopez,None,5-30
 26474,name_1,Nishikori,None,6-30,None
 26475,name_2,Nishikori,None,6-30,None
 26476,name_2,Nishikori,Lopez,6-30,5-30
 26477,name_1,Nishikori,None,6-30,None
 26478,name_2,None,j Nishikori,None,6-30
-26479,name_2,Nishikori,_» Lopez,6-30,5-30
+26479,name_2,Nishikori,_ÃÂ» Lopez,6-30,5-30
 26480,name_2,None,Nishikori,None,6-30
-26481,name_1,Nishikori,_» Lopez,6-305,5-30
+26481,name_1,Nishikori,_ÃÂ» Lopez,6-305,5-30
 26482,name_1,Nishikori,_> Lopez,6-30,5-30
 26483,name_1,Nishikori,Lopez,6-30,5-30
 26484,name_2,Nishikori,Lopez,6-30,5-30
@@ -26894,7 +26894,7 @@ frame,serving,name_1,_name2,score_1,score_2
 26892,name_1,Federer,i,7-2-40,
 26893,name_1,Federer,ee er,7-2-40,8
 26894,name_1,Federer,Koh schreiber,72-40,6-3-30
-26895,name_1,Federer,_— oh,72-0,
+26895,name_1,Federer,_Ã¢ÂÂ oh,72-0,
 26896,name_1,Federer,None,7-2-40,None
 26897,name_1,Federer,Koh schreiber,72-40,6-3-30
 26898,name_2,soo LET CUD,Koh schreiber,,6-3-30
@@ -26907,8 +26907,8 @@ frame,serving,name_1,_name2,score_1,score_2
 26905,name_1,Federer,Koh schreiber,7-2-40,6-3-30
 26906,name_1,Federer,Koh schreiber,7-2-40,6-3-30
 26907,name_1,Federer,Koh schreiber,7-2-40,6-3-30
-26908,name_2,_._.» Federer,Koh schreiber,7-2-40,6-3-30
-26909,name_1,Federer,_—- Kohschreiber,7-2-40,6-3-30
+26908,name_2,_._.ÃÂ» Federer,Koh schreiber,7-2-40,6-3-30
+26909,name_1,Federer,_Ã¢ÂÂ- Kohschreiber,7-2-40,6-3-30
 26910,name_1,Federer,Koh schreiber,7-2-40,6-3-30
 26911,name_1,Federer,Koh schreiber,7-2-40,6-3-30
 26912,name_1,Federer,Koh schreiber,7-2-40,6-3-30
@@ -26956,7 +26956,7 @@ frame,serving,name_1,_name2,score_1,score_2
 26954,name_1,Federer,___ Koh schreiber,7-2-40,6-3-30
 26955,name_1,Federer,_. Kohschreiber,7-2-40,6-3-30
 26956,name_1,Federer,__. Kohschreiber,7-2-40,6-3-30
-26957,name_1,Federer,_—. Kohschreiber,7-2-40,6-3-30
+26957,name_1,Federer,_Ã¢ÂÂ. Kohschreiber,7-2-40,6-3-30
 26958,name_1,Federer,_ Kohschreiber,7-2-40,6-3-30
 26959,name_1,Federer,Kohschreiber,7-2-40,6-3-30
 26960,name_1,Federer,Koh schreiber,72-40,6-3-30
@@ -27397,7 +27397,7 @@ frame,serving,name_1,_name2,score_1,score_2
 27395,name_2,None,Bellucci,None,14
 27396,name_2,None,Bellucci,None,14
 27397,name_2,EE,Bellucci,,4
-27398,name_2,NN  ————ee,Bellucci,,4
+27398,name_2,NN  Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂee,Bellucci,,4
 27399,name_2,Fognini,Bellucci,5,4
 27400,name_2,Fognini,Bellucci,5,4
 27401,name_2,Fognini,Bellucci,5,4
@@ -27407,38 +27407,38 @@ frame,serving,name_1,_name2,score_1,score_2
 27405,name_2,Fognini,Bellucci,5,4
 27406,name_2,Fognini,Bellucci,5,4
 27407,name_2,Fognini,Bellucci,5,4
-27408,name_2,EN —ee,Bellucci,,4
-27409,name_2,EN —ee,Bellucci,,4
-27410,name_2,EN —ee,Bellucci,,4
-27411,name_2,EN —ee,Bellucci,,4
-27412,name_2,EN —ee,Bellucci,,4
-27413,name_2,EN —ee,Bellucci,,4
-27414,name_2,EN —ee,Bellucci,,4
-27415,name_2,EN —ee,Bellucci,,4
-27416,name_2,EN —ee,Bellucci,,4
-27417,name_2,NN OO ——e,Bellucci,,4
+27408,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27409,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27410,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27411,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27412,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27413,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27414,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27415,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27416,name_2,EN Ã¢ÂÂee,Bellucci,,4
+27417,name_2,NN OO Ã¢ÂÂÃ¢ÂÂe,Bellucci,,4
 27418,name_2,Fognini,Bellucci,5,4
 27419,name_2,None,Bellucci,None,4
 27420,name_2,None,Bellucci,None,4
 27421,name_2,None,Bellucci,None,4
 27422,name_2,None,Bellucci,None,4
 27423,name_2,Fognini,Bellucci,5,4
-27424,name_2,NN  —e,Bellucci,,4
-27425,name_2,NN  —e,Bellucci,,4
-27426,name_2,NN  —e,Bellucci,,4
-27427,name_2,NN  —e,Bellucci,,4
+27424,name_2,NN  Ã¢ÂÂe,Bellucci,,4
+27425,name_2,NN  Ã¢ÂÂe,Bellucci,,4
+27426,name_2,NN  Ã¢ÂÂe,Bellucci,,4
+27427,name_2,NN  Ã¢ÂÂe,Bellucci,,4
 27428,name_1,_,Bellucci,,4
 27429,name_1,_,Bellucci,,4
 27430,name_1,_,Bellucci,,4
 27431,name_1,_,Bellucci,,4
-27432,name_1,a——x,Bellucci,,4
-27433,name_1,a——x,Bellucci,,4
-27434,name_1,a——x,Bellucci,,4
-27435,name_1,a——x,Bellucci,,4
-27436,name_1,a——x,Bellucci,,4
-27437,name_1,a——x,Bellucci,,4
-27438,name_1,a——x,Bellucci,,4
-27439,name_1,a——x,Bellucci,,4
+27432,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27433,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27434,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27435,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27436,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27437,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27438,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
+27439,name_1,aÃ¢ÂÂÃ¢ÂÂx,Bellucci,,4
 27440,name_1,_,Bellucci,,4
 27441,name_1,_,Bellucci,,4
 27442,name_1,_,Bellucci,,4
@@ -27471,12 +27471,12 @@ frame,serving,name_1,_name2,score_1,score_2
 27469,name_1,_,Bellucci,,4
 27470,name_1,_,Bellucci,,4
 27471,name_2,None,Bellucci,None,4
-27472,name_1,—,Bellucci,,4
+27472,name_1,Ã¢ÂÂ,Bellucci,,4
 27473,name_2,None,Bellucci,None,4
 27474,name_2,None,Bellucci,None,4
 27475,name_2,None,Bellucci,None,4
 27476,name_1,LoOoO&@&&x<_<O,Bellucci,,4
-27477,name_2,_——EO,Bellucci,,4
+27477,name_2,_Ã¢ÂÂÃ¢ÂÂEO,Bellucci,,4
 27478,name_2,Fognini,Bellucci,5,4
 27479,name_2,Fognini,Bellucci,5,4
 27480,name_2,Fognini,Bellucci,5,4
@@ -27552,7 +27552,7 @@ frame,serving,name_1,_name2,score_1,score_2
 27550,name_2,Fognini,Bellucci,5,4
 27551,name_2,EEE EEE EO,Bellucci,,4
 27552,name_2,Fognini,Bellucci,5,4
-27553,name_1,—,Bellucci,,4
+27553,name_1,Ã¢ÂÂ,Bellucci,,4
 27554,name_2,Fognini,Bellucci,5,4
 27555,name_2,Fognini,Bellucci,5,4
 27556,name_2,Fognini,Bellucci,5,4
@@ -27581,7 +27581,7 @@ frame,serving,name_1,_name2,score_1,score_2
 27579,name_2,None,Bellucci,None,4
 27580,name_2,Fognini,Bellucci,,4
 27581,name_2,None,Bellucci,None,4
-27582,name_2,LL —«e,Bellucci,,4
+27582,name_2,LL Ã¢ÂÂÃÂ«e,Bellucci,,4
 27583,name_2,Fognini,Bellucci,,4
 27584,name_2,Fognini,Bellucci,5,4
 27585,name_2,Fognini,Bellucci,5,4
@@ -27631,14 +27631,14 @@ frame,serving,name_1,_name2,score_1,score_2
 27629,name_2,None,Bellucci,None,4
 27630,name_2,None,Bellucci,None,4
 27631,name_1,_,Bellucci,,4
-27632,name_1,_—_—_—_—_—aQaQ,Bellucci,,4
-27633,name_2,ES —K,Bellucci,,4
+27632,name_1,_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂaQaQ,Bellucci,,4
+27633,name_2,ES Ã¢ÂÂK,Bellucci,,4
 27634,name_1,_,Bellucci,,4
 27635,name_1,_,Bellucci,,4
 27636,name_1,_,Bellucci,,4
 27637,name_1,_,Bellucci,,4
 27638,name_2,None,Bellucci,None,4
-27639,name_2,EN  ——Vw,Bellucci,,4
+27639,name_2,EN  Ã¢ÂÂÃ¢ÂÂVw,Bellucci,,4
 27640,name_2,Fognini,Bellucci,5,4
 27641,name_2,None,Bellucci,None,4
 27642,name_1,_,Bellucci,,4
@@ -27661,9 +27661,9 @@ frame,serving,name_1,_name2,score_1,score_2
 27659,name_2,Fognini,Bellucci,5,4
 27660,name_2,None,Bellucci,None,4
 27661,name_2,Fognini,Bellucci,5,4
-27662,name_2,EE —RR,Bellucci,,4
-27663,name_1,—,Bellucci,,4
-27664,name_2,EE ——S,Bellucci,,4
+27662,name_2,EE Ã¢ÂÂRR,Bellucci,,4
+27663,name_1,Ã¢ÂÂ,Bellucci,,4
+27664,name_2,EE Ã¢ÂÂÃ¢ÂÂS,Bellucci,,4
 27665,name_2,VS,Bellucci,,4
 27666,name_2,Fognini,Bellucci,5,4
 27667,name_2,Fognini,Bellucci,5,4
@@ -27700,18 +27700,18 @@ frame,serving,name_1,_name2,score_1,score_2
 27698,name_2,EE,Bellucci,,4
 27699,name_2,EE,Bellucci,,4
 27700,name_2,EE,Bellucci,,4
-27701,name_1,—,Bellucci,,4
+27701,name_1,Ã¢ÂÂ,Bellucci,,4
 27702,name_2,EE,Bellucci,,4
 27703,name_2,Fognini,Bellucci,5,4
 27704,name_2,Fognini,Bellucci,5,4
 27705,name_1,E,Bellucci,,4
-27706,name_1,—,Bellucci,,4
+27706,name_1,Ã¢ÂÂ,Bellucci,,4
 27707,name_2,Fognini,Bellucci,5,4
 27708,name_2,None,Bellucci,None,4
 27709,name_2,Fognini,Bellucci,5,4
-27710,name_1,L_———— ee S,Bellucci,,4
+27710,name_1,L_Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ ee S,Bellucci,,4
 27711,name_2,Fognini,Bellucci,5,4
-27712,name_1,_—_—_—_—_—_—_—_——e eee,Bellucci,,4
+27712,name_1,_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂ_Ã¢ÂÂÃ¢ÂÂe eee,Bellucci,,4
 27713,name_2,None,Bellucci,None,4
 27714,name_2,Fognini,Bellucci,5,4
 27715,name_2,SS,Bellucci,,4
@@ -28112,7 +28112,7 @@ frame,serving,name_1,_name2,score_1,score_2
 28110,name_2,Carreno Busta,Anderson,65-4-30,474-40
 28111,name_2,Carreno Busta,Anderson,65-4-30,474-40
 28112,name_2,Carreno Busta,Anderson,65-4-30,474-40
-28113,name_2,Bm” Anderson,Carreno Busta,474-40,65-4-30
+28113,name_2,BmÃ¢ÂÂ Anderson,Carreno Busta,474-40,65-4-30
 28114,name_2,i Carreno Busta,Be Anderson,65-4-30,474-40
 28115,name_2,my Anderson,a Carreno Busta,474-40,65-4-30
 28116,name_1,Carreno Busta,None,65-4-30,None
@@ -28120,10 +28120,10 @@ frame,serving,name_1,_name2,score_1,score_2
 28118,name_2,a Carreno Busta,me Anderson,65-4-30,474-40-7
 28119,name_1,Carreno Busta,ge Anderson,65-4-30,474-40
 28120,name_1,Carreno Busta,mg Anderson,65-4-30,474-40
-28121,name_2,a Carreno Busta,mg” Anderson,65-4-30,474-40
+28121,name_2,a Carreno Busta,mgÃ¢ÂÂ Anderson,65-4-30,474-40
 28122,name_1,Carreno Busta,ga Anderson,65-4-30,474-40
-28123,name_2,a Carreno Busta,ge” Anderson,65-4-30,474-40
-28124,name_2,a Carreno Busta,mag” Anderson,65-4-30,474-40
+28123,name_2,a Carreno Busta,geÃ¢ÂÂ Anderson,65-4-30,474-40
+28124,name_2,a Carreno Busta,magÃ¢ÂÂ Anderson,65-4-30,474-40
 28125,name_2,a Carreno Busta,None,65-4-30,None
 28126,name_2,a Carreno Busta,None,65-4-30,None
 28127,name_2,ac Carreno Busta,None,6-5-4-30,None
@@ -28133,7 +28133,7 @@ frame,serving,name_1,_name2,score_1,score_2
 28131,name_2,a Carreno Busta,ON ee,65-4-30,
 28132,name_2,a Carreno Busta,None,65-4-30,None
 28133,name_2,None,None,None,None
-28134,name_2,MD carreno Busta,_» Anderson,65-4-30,474-40
+28134,name_2,MD carreno Busta,_ÃÂ» Anderson,65-4-30,474-40
 28135,name_2,None,None,None,None
 28136,name_2,None,None,None,None
 28137,name_2,None,None,None,None
@@ -28876,7 +28876,7 @@ frame,serving,name_1,_name2,score_1,score_2
 28874,name_2,Monfils,Tsonga,6-1-15,4-1-30
 28875,name_2,Monfils,Tsonga,6-1-15,4-1-30
 28876,name_2,Monfils,w Tsonga,6-1-15,4-1-30
-28877,name_2,Monfils,gy” Tsonga,6-1-15,4-1-30
+28877,name_2,Monfils,gyÃ¢ÂÂ Tsonga,6-1-15,4-1-30
 28878,name_2,Monfils,y > Tsonga,6-1-15,4-1-30
 28879,name_2,Monfils,Tsonga,61-15,41-30
 28880,name_2,Monfils,Tsonga,61-15,4130
@@ -29231,8 +29231,8 @@ frame,serving,name_1,_name2,score_1,score_2
 29229,name_2,Tsitsipas,Djokovic,6-6-2-15,37-0-30
 29230,name_2,Tsitsipas,Djokovic,6-6-2-15,37-0-30
 29231,name_2,Tsitsipas,_| Djokovic,6-6-2-15,37-0-30
-29232,name_2,Tsitsipas,_—‘ aa,6-6-2-15,
-29233,name_2,Tsitsipas,_—‘ aa,6-6-2-15,
+29232,name_2,Tsitsipas,_Ã¢ÂÂÃ¢ÂÂ aa,6-6-2-15,
+29233,name_2,Tsitsipas,_Ã¢ÂÂÃ¢ÂÂ aa,6-6-2-15,
 29234,name_2,Tsitsipas,eee,6-6-2-15,
 29235,name_2,Tsitsipas,eee,6-6-2-15,
 29236,name_2,Tsitsipas,eee,6-6-2-15,
@@ -29862,7 +29862,7 @@ frame,serving,name_1,_name2,score_1,score_2
 29860,name_1,Nadal,Monfils,6-4-40,5-1-0
 29861,name_1,Nadal,Monfils,6-4-40,1-0
 29862,name_1,Nadal,Monfils,6-4-40,1-0
-29863,name_2,_» Nadal,b Monfils,6-440,1-0
+29863,name_2,_ÃÂ» Nadal,b Monfils,6-440,1-0
 29864,name_1,Nadal,Monfils,6-440,1-0
 29865,name_2,aie,Monfils,6-440,1-0
 29866,name_1,Nadal,Monfils,6-4-40,1-0
@@ -34132,7 +34132,7 @@ frame,serving,name_1,_name2,score_1,score_2
 34130,name_2,_ Nadal,Thiem,4-30,5-15
 34131,name_2,Nadal,Thiem,4-30,5-15
 34132,name_2,None,None,None,None
-34133,name_2,Nadal,_»Thiem,4-30,5-15
+34133,name_2,Nadal,_ÃÂ»Thiem,4-30,5-15
 34134,name_2,Nadal,_* Thiem,4-30,5-15
 34135,name_2,Nadal,Thiem,4-30,5-15
 34136,name_2,Nadal,Thiem,4-30,5-15
@@ -34527,11 +34527,11 @@ frame,serving,name_1,_name2,score_1,score_2
 34525,name_2,pr Federer,None,3,None
 34526,name_1,Federer,None,3,None
 34527,name_1,Federer,None,3,None
-34528,name_2,e” Federer,None,3,None
+34528,name_2,eÃ¢ÂÂ Federer,None,3,None
 34529,name_1,Federer,None,3,None
 34530,name_2,_ Federer,None,3,None
 34531,name_1,Federer,None,3,None
-34532,name_2,a’ Federer,None,3,None
+34532,name_2,aÃ¢ÂÂ Federer,None,3,None
 34533,name_1,Federer,Djokovic,3,4
 34534,name_1,Federer,Djokovic,3,4
 34535,name_2,None,None,None,None
@@ -35363,134 +35363,134 @@ frame,serving,name_1,_name2,score_1,score_2
 35361,name_1,Nadal,Djokovic,4-0,2-30
 35362,name_1,Nadal,Djokovic,4-0,2-30
 35363,name_1,Nadal,Djokovic,4-0,2-30
-35364,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35365,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35366,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35367,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35368,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35369,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35370,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35371,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35372,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35373,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35374,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35375,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35376,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35377,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35378,name_2,vERDASCO =-—sdO,SOUSA,0,0-0
-35379,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35380,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35381,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35382,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35383,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35384,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35385,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35386,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35387,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35388,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35389,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35390,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35391,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35392,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35393,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35394,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35395,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35396,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35397,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35398,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35399,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35400,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35401,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35402,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35403,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35404,name_2,veRDASCO =»-—sd,SOUSA,0-0,0-0
-35405,name_2,veRDASCO =»-—sdO,SOUSA,0-0,0-0
-35406,name_2,veRDASCO =-—sa,SOUSA,00-0,0-0
-35407,name_2,veRDASCO =-—sa,SOUSA,00-0,0-0
-35408,name_2,veRDASCO =-—sa,SOUSA,00-0,0-0
-35409,name_2,veRDASCO =-—sa,SOUSA,00-0,0-0
-35410,name_2,veRDASCO =-—sa,SOUSA,00-0,0-0
-35411,name_2,veRDASCO =-—sa,SOUSA,00-0,0-0
-35412,name_2,veRDASCO =-—sd,SOUSA,0-0,0-0
-35413,name_2,veRDASCO =-—sd,SOUSA,0-0,0-0
-35414,name_2,veRDASCO =-—sa,SOUSA,0-0,0-0
-35415,name_2,veRDAScO =»-—sd,SOUSA,0,0-0
-35416,name_2,veRDAScO =»-—sd,SOUSA,0,0-0
-35417,name_2,veRDAScO =»-—sd,SOUSA,0,0-0
-35418,name_2,veRDAScO =»-—sd,SOUSA,0,0-0
-35419,name_2,veRDAScO =»-—sd,SOUSA,0,0-0
-35420,name_2,veRDAscO =-—sa,SOUSA,0-0,0-0
-35421,name_2,veRDAscO =-—sa,SOUSA,0-0,0-0
-35422,name_2,veRDAscO =-—sa,SOUSA,0-0,0-0
-35423,name_2,veRDAsCO =»-—sd,SOUSA,0-0,0-0
-35424,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35425,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35426,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35427,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35428,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35429,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35430,name_2,everpasco =-_—dO,SOUSA,0,0-0
-35431,name_2,everpasco =—-_—sdO,SOUSA,0,0-0
-35432,name_2,everpasco =—-_—sdO,SOUSA,0,0-0
-35433,name_2,everpasco ©—-—O,SOUSA,0-0,0-0
-35434,name_2,everpasco ©—-—O,SOUSA,0-0,0-0
-35435,name_2,everpasco ©—-—O,SOUSA,0-0,0-0
-35436,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35437,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35438,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35439,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35440,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35441,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35442,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35443,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35444,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35445,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35446,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35447,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35448,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35449,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35450,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35451,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35452,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35453,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35454,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35455,name_2,everDAscO =»-—sd,SOUSA,0-0,0-0
-35456,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35457,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35458,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35459,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35460,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35461,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35462,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35463,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35464,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35465,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35466,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35467,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35468,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35469,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35470,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35471,name_2,evervasco =-—sdO,SOUSA,0,0-0
-35472,name_2,everDASCO = «OO,SOUSA,0,0-0
-35473,name_2,everDASCO = «OO,SOUSA,0,0-0
-35474,name_2,everDASCO = «OO,SOUSA,0,0-0
-35475,name_2,everDASCO = «OO,SOUSA,0,0-0
-35476,name_2,everDASCO = «OO,SOUSA,0,0-0
-35477,name_2,everDASCO = «OO,SOUSA,0,0-0
-35478,name_2,everDASCO = «OO,SOUSA,0,0-0
-35479,name_2,everDASCO = «OO,SOUSA,0,0-0
-35480,name_2,everDASCO = «OO,SOUSA,0,0-0
-35481,name_2,everDASCO = «OO,SOUSA,0,0-0
-35482,name_2,everDASCO = «OO,SOUSA,0,0-0
-35483,name_2,everDASCO = «OO,SOUSA,0,0-0
-35484,name_2,everDASCO = «OO,SOUSA,0,0-0
-35485,name_2,everDASCO = «OO,SOUSA,0,0-0
-35486,name_2,everDASCO = «OO,SOUSA,0,0-0
-35487,name_2,everDASCO = «OO,SOUSA,0,0-0
-35488,name_2,everDASCO = «OO,SOUSA,0,0-0
-35489,name_2,everDASCO = «OO,SOUSA,0,0-0
-35490,name_2,everDASCO = «OO,SOUSA,0,0-0
-35491,name_2,everDASCO = «OO,SOUSA,0,0-0
+35364,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35365,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35366,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35367,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35368,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35369,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35370,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35371,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35372,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35373,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35374,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35375,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35376,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35377,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35378,name_2,vERDASCO =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35379,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35380,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35381,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35382,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35383,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35384,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35385,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35386,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35387,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35388,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35389,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35390,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35391,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35392,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35393,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35394,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35395,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35396,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35397,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35398,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35399,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35400,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35401,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35402,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35403,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35404,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35405,name_2,veRDASCO =ÃÂ»-Ã¢ÂÂsdO,SOUSA,0-0,0-0
+35406,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,00-0,0-0
+35407,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,00-0,0-0
+35408,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,00-0,0-0
+35409,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,00-0,0-0
+35410,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,00-0,0-0
+35411,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,00-0,0-0
+35412,name_2,veRDASCO =-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35413,name_2,veRDASCO =-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35414,name_2,veRDASCO =-Ã¢ÂÂsa,SOUSA,0-0,0-0
+35415,name_2,veRDAScO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0,0-0
+35416,name_2,veRDAScO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0,0-0
+35417,name_2,veRDAScO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0,0-0
+35418,name_2,veRDAScO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0,0-0
+35419,name_2,veRDAScO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0,0-0
+35420,name_2,veRDAscO =-Ã¢ÂÂsa,SOUSA,0-0,0-0
+35421,name_2,veRDAscO =-Ã¢ÂÂsa,SOUSA,0-0,0-0
+35422,name_2,veRDAscO =-Ã¢ÂÂsa,SOUSA,0-0,0-0
+35423,name_2,veRDAsCO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35424,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35425,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35426,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35427,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35428,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35429,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35430,name_2,everpasco =-_Ã¢ÂÂdO,SOUSA,0,0-0
+35431,name_2,everpasco =Ã¢ÂÂ-_Ã¢ÂÂsdO,SOUSA,0,0-0
+35432,name_2,everpasco =Ã¢ÂÂ-_Ã¢ÂÂsdO,SOUSA,0,0-0
+35433,name_2,everpasco ÃÂ©Ã¢ÂÂ-Ã¢ÂÂO,SOUSA,0-0,0-0
+35434,name_2,everpasco ÃÂ©Ã¢ÂÂ-Ã¢ÂÂO,SOUSA,0-0,0-0
+35435,name_2,everpasco ÃÂ©Ã¢ÂÂ-Ã¢ÂÂO,SOUSA,0-0,0-0
+35436,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35437,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35438,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35439,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35440,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35441,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35442,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35443,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35444,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35445,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35446,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35447,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35448,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35449,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35450,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35451,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35452,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35453,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35454,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35455,name_2,everDAscO =ÃÂ»-Ã¢ÂÂsd,SOUSA,0-0,0-0
+35456,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35457,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35458,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35459,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35460,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35461,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35462,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35463,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35464,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35465,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35466,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35467,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35468,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35469,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35470,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35471,name_2,evervasco =-Ã¢ÂÂsdO,SOUSA,0,0-0
+35472,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35473,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35474,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35475,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35476,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35477,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35478,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35479,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35480,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35481,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35482,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35483,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35484,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35485,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35486,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35487,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35488,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35489,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35490,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
+35491,name_2,everDASCO = ÃÂ«OO,SOUSA,0,0-0
 35492,name_2,None,SOUSA,None,0-0
 35493,name_2,None,SOUSA,None,0-0
 35494,name_2,None,SOUSA,None,0-0
@@ -35620,9 +35620,9 @@ frame,serving,name_1,_name2,score_1,score_2
 35618,name_2,None,SOUSA,None,00
 35619,name_2,None,SOUSA,None,00
 35620,name_2,None,SOUSA o,None,0
-35621,name_2,eveRDASCO =-—sa,SOUSA o,0,0
+35621,name_2,eveRDASCO =-Ã¢ÂÂsa,SOUSA o,0,0
 35622,name_2,None,SOUSA o,None,0
-35623,name_2,eveRDASCO =-—sa,SOUSA o,0,0
+35623,name_2,eveRDASCO =-Ã¢ÂÂsa,SOUSA o,0,0
 35624,name_2,None,SOUSA o,None,0
 35625,name_2,None,SOUSA o,None,0
 35626,name_2,None,SOUSA o,None,0
@@ -35644,7 +35644,7 @@ frame,serving,name_1,_name2,score_1,score_2
 35642,name_2,Lenn,SOUSA,,00
 35643,name_1,VERDASCO,SOUSA,00,00
 35644,name_1,VERDASCO,SOUSA,00,00
-35645,name_2,_—» VERDASCO,SOUSA,00,00
+35645,name_2,_Ã¢ÂÂÃÂ» VERDASCO,SOUSA,00,00
 35646,name_2,_* VERDASCO,SOUSA,00,00
 35647,name_2,_-? VERDASCO,SOUSA,00,00
 35648,name_2,_-* VERDASCO,SOUSA,00,00
@@ -35660,20 +35660,20 @@ frame,serving,name_1,_name2,score_1,score_2
 35658,name_2,None,None,None,None
 35659,name_2,None,None,None,None
 35660,name_1,VERDASCO,SOUSA,00,00
-35661,name_1,VERDASCO,e—. SOUSA,00,00
+35661,name_1,VERDASCO,eÃ¢ÂÂ. SOUSA,00,00
 35662,name_2,None,_. SOUSA,None,00
 35663,name_2,None,_- SOUSA,None,00
 35664,name_2,None,__ SOUSA,None,0-0
 35665,name_2,None,SOUSA,None,00
-35666,name_1,verDascO «= «iOS,SOUSA,,00
-35667,name_2,evervasco §=—s«iO sO,SOUSA,,00
-35668,name_2,evervasco §=—s«iOséO,SOUSA,,00
+35666,name_1,verDascO ÃÂ«= ÃÂ«iOS,SOUSA,,00
+35667,name_2,evervasco ÃÂ§=Ã¢ÂÂsÃÂ«iO sO,SOUSA,,00
+35668,name_2,evervasco ÃÂ§=Ã¢ÂÂsÃÂ«iOsÃÂ©O,SOUSA,,00
 35669,name_2,None,SOUSA,None,00
 35670,name_2,None,SOUSA,None,00
 35671,name_2,None,SOUSA,None,00
 35672,name_2,None,SOUSA,None,00
 35673,name_1,VERDASCO,SOUSA,0-0-7,00
-35674,name_2,eveRDASCO =—ss«O sO,SOUSA,,00
+35674,name_2,eveRDASCO =Ã¢ÂÂssÃÂ«O sO,SOUSA,,00
 35675,name_2,everdascO. =O OO,None,,None
 35676,name_2,VERDASCO,SOUSA,0-0,007
 35677,name_2,None,None,None,None
@@ -35689,10 +35689,10 @@ frame,serving,name_1,_name2,score_1,score_2
 35687,name_2,None,SOUSA,None,00
 35688,name_2,None,SOUSA,None,0-0
 35689,name_2,None,SOUSA,None,0-0
-35690,name_1,evervasco «=i,SOUSA,,0-0
-35691,name_1,VeRDASCO «= iO SOO,SOUSA,,0-0
+35690,name_1,evervasco ÃÂ«=i,SOUSA,,0-0
+35691,name_1,VeRDASCO ÃÂ«= iO SOO,SOUSA,,0-0
 35692,name_1,VERDASCO,SOUSA,00,0-0
-35693,name_2,eVERDASCO «= sO,SOUSA,0,00
+35693,name_2,eVERDASCO ÃÂ«= sO,SOUSA,0,00
 35694,name_2,None,SOUSA,None,007
 35695,name_2,_everdASCO,SOUSA,0-0,0-0
 35696,name_2,None,SOUSA,None,0-0
@@ -35713,7 +35713,7 @@ frame,serving,name_1,_name2,score_1,score_2
 35711,name_2,None,SOUSA,None,0-15
 35712,name_2,None,SOUSA,None,0-15
 35713,name_2,MM vennasco,SOUSA,00,015
-35714,name_1,—,SOUSA,,015
+35714,name_1,Ã¢ÂÂ,SOUSA,,015
 35715,name_2,VERDASCO,SOUSA,00,015
 35716,name_2,VERDASCO,SOUSA,00,015
 35717,name_2,None,SOUSA,None,0-15
@@ -36670,7 +36670,7 @@ frame,serving,name_1,_name2,score_1,score_2
 36668,name_2,Nadal,Wawrinka,720,5-3-15
 36669,name_1,Nadal,Wawrinka,720,5-3-15
 36670,name_1,Nadal,p> Wawrinka,720,5-3-15
-36671,name_2,m™ Nadal,Wawrinka,720,5-3-15
+36671,name_2,mÃ¢ÂÂ¢ Nadal,Wawrinka,720,5-3-15
 36672,name_1,Nadal,Wawrinka,720,5-3-15
 36673,name_2,Nadal,Wawrinka,7-2-0,5-3-15
 36674,name_1,Nadal,b Wawrinka,72-0,5-3-15
@@ -36713,7 +36713,7 @@ frame,serving,name_1,_name2,score_1,score_2
 36711,name_2,Nadal,Wawrinka,72-0,5-3-30
 36712,name_2,Nadal,_ Wawrinka,72-0,5-3-30
 36713,name_2,Nadal,None,72-0,None
-36714,name_2,Nadal,_»Wawrinka,7-2-0,5-3-30
+36714,name_2,Nadal,_ÃÂ»Wawrinka,7-2-0,5-3-30
 36715,name_2,Nadal,None,72-0,None
 36716,name_2,Nadal,Wawrinka,72-0,5330
 36717,name_2,Nadal,Wawrinka,72-0,5-3-30
@@ -37967,11 +37967,11 @@ frame,serving,name_1,_name2,score_1,score_2
 37965,name_2,None,Monfils,None,6-4-40
 37966,name_2,None,Monfils,None,6-4-40
 37967,name_2,None,Monfils,None,6-4-40
-37968,name_2,q¢ Verdasco,Monfils,25-0,6-4-40
+37968,name_2,qÃÂ¢ Verdasco,Monfils,25-0,6-4-40
 37969,name_2,None,E Monfils,None,6-4-40
 37970,name_2,None,Monfils,None,6-4-40
 37971,name_2,None,W honfils,None,6-4-40
-37972,name_1,—,Monfils,,6-4-40
+37972,name_1,Ã¢ÂÂ,Monfils,,6-4-40
 37973,name_2,None,Monfils,None,6-4-40
 37974,name_2,None,Monfils,None,6-4-40
 37975,name_2,None,Monfils,None,64-40
@@ -38710,7 +38710,7 @@ frame,serving,name_1,_name2,score_1,score_2
 38708,name_2,Becaun coo,s Thiem,,45-15
 38709,name_2,Fognini,_. Thiem,6-0-0,4-5-15
 38710,name_2,Fognini,_| Thiem,6-0-0,4-5-15
-38711,name_2,None,Thiem “egg,None,5-15
+38711,name_2,None,Thiem Ã¢ÂÂegg,None,5-15
 38712,name_2,Droann cor,_ Thiem,,4-5-15
 38713,name_2,E coanini,_. Thiem,,4-5-15
 38714,name_2,None,_ Thiem,None,4-5-15
@@ -38745,7 +38745,7 @@ frame,serving,name_1,_name2,score_1,score_2
 38743,name_2,EF Fognini,Thiem,6-0-15,4-5-15
 38744,name_2,None,Thiem,None,4-5-15
 38745,name_2,y Fognini,Thiem,6-0-15,4-5-15
-38746,name_2,é Fognini,Thiem,6-0-15,45-15
+38746,name_2,ÃÂ© Fognini,Thiem,6-0-15,45-15
 38747,name_1,Fognini,Thiem,6-0-15,45-15
 38748,name_1,Fognini,Thiem,6-0-15,45-15
 38749,name_2,None,Thiem,None,45-15
@@ -38784,7 +38784,7 @@ frame,serving,name_1,_name2,score_1,score_2
 38782,name_1,Fognini,Thiem,6-0-15,4-5-15
 38783,name_1,Fognini,Thiem,6-0-15,4-5-15
 38784,name_1,Fognini,Thiem,6015,45-15
-38785,name_2,_» Fognini,Thiem,6015,45-15
+38785,name_2,_ÃÂ» Fognini,Thiem,6015,45-15
 38786,name_1,Fognini,Thiem,6015,45-15
 38787,name_2,None,Thiem,None,45-15
 38788,name_1,Fognini,Thiem,6-0-15,45-15
@@ -38805,7 +38805,7 @@ frame,serving,name_1,_name2,score_1,score_2
 38803,name_1,Fognini,Thiem,60-15,45-15
 38804,name_1,Fognini,g Thiem,60-15,45-15
 38805,name_2,Fognini,Thiem,60-15,45-15
-38806,name_2,é Fognini,Thiem,60-15,45-15
+38806,name_2,ÃÂ© Fognini,Thiem,60-15,45-15
 38807,name_2,None,None,None,None
 38808,name_2,None,None,None,None
 38809,name_2,None,None,None,None
@@ -40335,10 +40335,10 @@ frame,serving,name_1,_name2,score_1,score_2
 40333,name_2,a e-lik,stl ce [ots,2-6-40,30
 40334,name_2,wae,stl ce [ots,6-40,30
 40335,name_2,_> Paire,Berdych,6-1-40,7-1-30
-40336,name_2,_»Paire,Berdych,6-1-40,7-1-30
+40336,name_2,_ÃÂ»Paire,Berdych,6-1-40,7-1-30
 40337,name_1,Paire,Berdych,6-1-40,7-1-30
 40338,name_2,_,Paire,,6-1-40
-40339,name_1, ,Paire,,6-1-40
+40339,name_1,,Paire,,6-1-40
 40340,name_1,Paire,None,6-1-40,None
 40341,name_1,e,Paire,,6-1-408
 40342,name_1,Paire,Berdych,6-1-404,7-1-504
@@ -40372,7 +40372,7 @@ frame,serving,name_1,_name2,score_1,score_2
 40370,name_2,Lael} ct,Berdych,40,7-30
 40371,name_2,None,_,None,
 40372,name_1,Paire,Berdych,6-40,7-30
-40373,name_1,—,__ Berdych,,7-1-30
+40373,name_1,Ã¢ÂÂ,__ Berdych,,7-1-30
 40374,name_1,_,Berdych,,7-1-30
 40375,name_1,Paire,no,6-1-40,12
 40376,name_2,None,None,None,None
@@ -40856,11 +40856,11 @@ frame,serving,name_1,_name2,score_1,score_2
 40854,name_1,Kyrgios,Edmund,76-0-40,67-0-15
 40855,name_1,Kyrgios,Edmund,76-0-40,67-0-15
 40856,name_1,Kyrgios,Edmund,76-0-40,67-0-15
-40857,name_2,ST “ss,Edmund,,67-0-15
+40857,name_2,ST Ã¢ÂÂss,Edmund,,67-0-15
 40858,name_1,Kyrgios,Edmund,76-0-40,67-0-157
 40859,name_1,Kyrgios,Edmund,76-0-40,67-0-15
 40860,name_1,Kyrgios,Edmund,76-0-40,67-0-15
-40861,name_2,ST “ss,Edmund,,67-0-15
+40861,name_2,ST Ã¢ÂÂss,Edmund,,67-0-15
 40862,name_1,Kyrgios,Edmund,76-0-40,67-0-15
 40863,name_1,Kyrgios,Edmund,76-0-40,67-0-15
 40864,name_1,Kyrgios,None,760-40,None
@@ -40926,7 +40926,7 @@ frame,serving,name_1,_name2,score_1,score_2
 40924,name_2,None,_,None,
 40925,name_2,None,_,None,
 40926,name_2,None,Edmund,None,67-0-15
-40927,name_1,Kyrgios,_— i,760-40,
+40927,name_1,Kyrgios,_Ã¢ÂÂ i,760-40,
 40928,name_1,Kyrgios,Edmund,760-40,67-0-15
 40929,name_1,Kyrgios,Edmund,760-40,67-0-15
 40930,name_1,Kyrgios,Edmund,760-40,67-0-15
@@ -41471,30 +41471,30 @@ frame,serving,name_1,_name2,score_1,score_2
 41469,name_1,GASQUET,EDMUND,338,63
 41470,name_1,GASQUET,EDMUND,338,63
 41471,name_1,GASQUET,EDMUND,338,63
-41472,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41473,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41474,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41475,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41476,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41477,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41478,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41479,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41480,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41481,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41482,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41483,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41484,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41485,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41486,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41487,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41488,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41489,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41490,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41491,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41492,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41493,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41494,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
-41495,name_1,GASQUET =—s-_ so,EDMUND,33-3-115,63-0
+41472,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41473,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41474,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41475,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41476,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41477,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41478,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41479,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41480,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41481,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41482,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41483,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41484,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41485,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41486,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41487,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41488,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41489,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41490,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41491,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41492,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41493,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41494,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
+41495,name_1,GASQUET =Ã¢ÂÂs-_ so,EDMUND,33-3-115,63-0
 41496,name_2,None,None,None,None
 41497,name_2,GASQUET,EDMUND,33,6-3-15
 41498,name_2,GASQUET,EDMUND,338,6-315
@@ -41510,25 +41510,25 @@ frame,serving,name_1,_name2,score_1,score_2
 41508,name_2,y se,EDMUND,,6-3-15
 41509,name_2,Z er,EDMUND,,6-3-15
 41510,name_1,s,EDMUND,,6-3-15
-41511,name_1, ,EDMUND,,6-3-15
+41511,name_1,,EDMUND,,6-3-15
 41512,name_2,None,None,None,None
 41513,name_2,None,EDMUND,None,6-3-15
 41514,name_1,GASQUET,EDMUND,0-3-3-6,6-3-15
 41515,name_2,F Oa C,EDMUND,,6-3-15
 41516,name_1,GASQUET,_ EDMUND,03-3,6-3-15
 41517,name_2,GASQUET,_ EDMUND,33,6-3-15
-41518,name_2,PP casaver, ,0-3-3-115,6-3-15
+41518,name_2,PP casaver,,0-3-3-115,6-3-15
 41519,name_2,PP cssauer,_,0-3-3-115,6-3-15
 41520,name_2,PP saver,_,0-3-3,6-3-15
 41521,name_2,None,None,None,None
 41522,name_2,None,None,None,None
 41523,name_2,None,None,None,None
-41524,name_2,PP casauer,EDMUND —s—s,0-3-3-15,33-15
+41524,name_2,PP casauer,EDMUND Ã¢ÂÂsÃ¢ÂÂs,0-3-3-15,33-15
 41525,name_2,PP casauer,a,0-3-3-15,63-15
 41526,name_2,PP casauer,_,0-3-3-15,63-15
 41527,name_2,PF casauer,i,03-3-15,63-15
-41528,name_2,FF casauer, ,03-3-15,6-3-15
-41529,name_2,PF casaver, ,03-3-15,6-315
+41528,name_2,FF casauer,,03-3-15,6-3-15
+41529,name_2,PF casaver,,03-3-15,6-315
 41530,name_2,PF cascuer,a,0-3-3-15,63-15
 41531,name_2,PF cssauer,a,0-3-315,63-15
 41532,name_1,GASQUET,_ EDMUND,03-3-15,6-3-15
@@ -41612,7 +41612,7 @@ frame,serving,name_1,_name2,score_1,score_2
 41610,name_1,GASQUET,EDMUND,3-38,6-3-15
 41611,name_1,GASQUET,EDMUND,33,6-3-15
 41612,name_1,GASQUET,EDMUND,33,6-3-15
-41613,name_2,_— GASQUET,EDMUND,33,6-3-15
+41613,name_2,_Ã¢ÂÂ GASQUET,EDMUND,33,6-3-15
 41614,name_2,_~ GASQUET,EDMUND,33,6-3-15
 41615,name_2,_> GASQUET,EDMUND,33,6-3-15
 41616,name_2,_~ GASQUET,EDMUND,33,6-3-15
@@ -41667,8 +41667,8 @@ frame,serving,name_1,_name2,score_1,score_2
 41665,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41666,name_2,BF ssa MU,EDMUND,,6-3-15
 41667,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
-41668,name_2,GASQUET —s,EDMUND,3-33-15,6-3-15
-41669,name_2,GASQUET —s,EDMUND,0-3-33-15,6-3-15
+41668,name_2,GASQUET Ã¢ÂÂs,EDMUND,3-33-15,6-3-15
+41669,name_2,GASQUET Ã¢ÂÂs,EDMUND,0-3-33-15,6-3-15
 41670,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41671,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41672,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
@@ -41694,7 +41694,7 @@ frame,serving,name_1,_name2,score_1,score_2
 41692,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41693,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41694,name_2,GASQUET e,EDMUND,3-3-15,6-3-15
-41695,name_2,GASQUET —s,EDMUND,3-33-15,6-3-15
+41695,name_2,GASQUET Ã¢ÂÂs,EDMUND,3-33-15,6-3-15
 41696,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41697,name_2,GASQUET,EDMUND,0-3-3-15,6-3-15
 41698,name_1,GASQUET,EDMUND,0-3-3-15,6-3-15
@@ -42091,7 +42091,7 @@ frame,serving,name_1,_name2,score_1,score_2
 42089,name_2,None,Medvedev,None,42
 42090,name_2,Lee,Medvedev,,42
 42091,name_1,Federer,Medvedev,6-2,42
-42092,name_2,_ Federer,_» Medvedev,6-2,42
+42092,name_2,_ Federer,_ÃÂ» Medvedev,6-2,42
 42093,name_2,t Federer,_ Medvedev,62,42
 42094,name_2,None,Medvedev,None,42
 42095,name_2,aes,Medvedev,,42
@@ -42111,8 +42111,8 @@ frame,serving,name_1,_name2,score_1,score_2
 42109,name_2,None,Medvedev,None,4-2
 42110,name_2,eee,Medvedev,,4-2
 42111,name_2,i! Federer,i} Medvedev,62,4-2
-42112,name_2,eR EUG LL ST” es th ee,Medvedev,,4-2
-42113,name_2,i Federer,coer Re —— ee eee,6-2,
+42112,name_2,eR EUG LL STÃ¢ÂÂ es th ee,Medvedev,,4-2
+42113,name_2,i Federer,coer Re Ã¢ÂÂÃ¢ÂÂ ee eee,6-2,
 42114,name_2,None,Federer,None,62
 42115,name_1,Federer,Medvedev,6-2,42
 42116,name_2,Federer,None,6-2,None
