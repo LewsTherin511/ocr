@@ -24,7 +24,7 @@ def main():
 	net.load_parameters("data/object_detection/box_score_ssd_512_mobilenet1.0_coco_run_00/ep_035.params", ctx=ctx)	### GREAT!!!
 	net.hybridize()
 
-	file_out = open('predictions_NN.csv', 'w+')
+	file_out = open('predictions_dummy.csv', 'w+')
 	file_out.write('frame,serving_pred,name_1_pred,name_2_pred,score_1_pred,score_2_pred\n')
 
 	df_names = pd.read_csv('data/names_labels.csv')
@@ -121,6 +121,23 @@ def main():
 	file_out.close()
 
 
+
+def timeit(func):
+	"""
+	Decorator for measuring function's running time.
+	"""
+	def measure_time(*args, **kw):
+		start_time = time.time()
+		result = func(*args, **kw)
+		print("Processing time of %s(): %.5f seconds."
+			  % (func.__qualname__, time.time() - start_time))
+		return result
+
+	return measure_time
+
+
+
+@timeit
 def parse_result(result, possible_names):
 	cnt = 0
 	name_1, name_2, serving_1, serving_2, score_1, score_2 = None, None, None, None, None, None
@@ -157,7 +174,7 @@ def parse_result(result, possible_names):
 	print(f'Player_1: {name_1} -> {score_1}\nPlayer_2: {name_2} -> {score_2}\nServing: {"name_1" if serving_1 else "name_2"}\n')
 	return name_1, name_2, serving_1, score_1, score_2
 
-
+@timeit
 def parse_score(score_1, score_2):
 
 	## flatten each score, and replace '8's with '5's
@@ -201,8 +218,6 @@ def parse_score(score_1, score_2):
 			# print(f'\t\tcollapsed score {score}')
 
 	return score_1, score_2
-
-
 
 
 
