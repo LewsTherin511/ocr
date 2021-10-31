@@ -5,6 +5,10 @@ import gluoncv as gcv
 import mxnet as mx
 import re
 from matplotlib import pyplot as plt
+import difflib
+import pandas as pd
+import time
+
 
 def main():
 
@@ -20,11 +24,16 @@ def main():
 	net.load_parameters("data/object_detection/box_score_ssd_512_mobilenet1.0_coco_run_00/ep_035.params", ctx=ctx)	### GREAT!!!
 	net.hybridize()
 
-	file_out = open('predictions_00.csv', 'w+')
+	file_out = open('predictions_dummy.csv', 'w+')
 	file_out.write('frame,serving_pred,name_1_pred,name_2_pred,score_1_pred,score_2_pred\n')
+
+	df_names = pd.read_csv('data/names_labels.csv')
+	possible_names = df_names['Name'].tolist()
+
 
 	frame_counter = 0
 	while True:
+		t0 = time.time()
 		name_1, name_2, serving_1, serving_2, score_1, score_2 = None, None, None, None, None, None
 		ret, frame_np_orig = cap.read()
 		key = cv2.waitKey(1)
@@ -89,7 +98,7 @@ def main():
 				## custom_config = r'--oem 3 --psm 6'
 				custom_config = r'--oem 3 --psm 4'
 				result = pytesseract.image_to_string(frame_thresh, config=custom_config)
-				name_1, name_2, serving_1, score_1, score_2 = parse_result(result)
+				name_1, name_2, serving_1, score_1, score_2 = parse_result(result, possible_names)
 
 				## just for formatting sake
 				try:
@@ -104,13 +113,15 @@ def main():
 
 		file_out.write(f'{frame_counter},{"name_1" if serving_1 else "name_2"},{name_1},{name_2},{score_1},{score_2}\n')
 		frame_counter += 1
+		print(f'FPS: {1/(time.time()-t0)}')
+
 
 	cv2.destroyAllWindows()
 	cap.release()
 	file_out.close()
 
 
-def parse_result(result):
+def parse_result(result, possible_names):
 	cnt = 0
 	name_1, name_2, serving_1, serving_2, score_1, score_2 = None, None, None, None, None, None
 	lines = result.strip().split('\n')
@@ -133,13 +144,15 @@ def parse_result(result):
 			## moving to second line
 			cnt += 1
 	## parse scores applying heuristics
-	# if score_1 and score_2:
-	# 	score_1, score_2 = parse_score(score_1, score_2)
+	if score_1 and score_2:
+		score_1, score_2 = parse_score(score_1, score_2)
 	## switch ',' with '.' in players' names
 	if name_1:
 		name_1 = name_1.replace(',', '.')
+		name_1 = [next(iter(difflib.get_close_matches(str(name_1).lower(), possible_names)), name_1)]
 	if name_2:
 		name_2 = name_2.replace(',', '.')
+		name_2 = [next(iter(difflib.get_close_matches(str(name_2).lower(), possible_names)), name_2)]
 
 	print(f'Player_1: {name_1} -> {score_1}\nPlayer_2: {name_2} -> {score_2}\nServing: {"name_1" if serving_1 else "name_2"}\n')
 	return name_1, name_2, serving_1, score_1, score_2
