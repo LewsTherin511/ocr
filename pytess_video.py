@@ -24,7 +24,7 @@ def main():
 	net.load_parameters("data/object_detection/box_score_ssd_512_mobilenet1.0_coco_run_00/ep_035.params", ctx=ctx)	### GREAT!!!
 	net.hybridize()
 
-	file_out = open('predictions_dummy.csv', 'w+')
+	file_out = open('predictions_NN.csv', 'w+')
 	file_out.write('frame,serving_pred,name_1_pred,name_2_pred,score_1_pred,score_2_pred\n')
 
 	df_names = pd.read_csv('data/names_labels.csv')
@@ -96,7 +96,7 @@ def main():
 
 				## text detection
 				## custom_config = r'--oem 3 --psm 6'
-				custom_config = r'--oem 1 --psm 4'
+				custom_config = r'--oem 3 --psm 4'
 				result = pytesseract.image_to_string(frame_thresh, config=custom_config)
 				name_1, name_2, serving_1, score_1, score_2 = parse_result(result, possible_names)
 
@@ -149,10 +149,10 @@ def parse_result(result, possible_names):
 	## switch ',' with '.' in players' names
 	if name_1:
 		name_1 = name_1.replace(',', '.')
-		name_1 = [next(iter(difflib.get_close_matches(str(name_1).lower(), possible_names)), name_1)]
+		name_1 = next(iter(difflib.get_close_matches(str(name_1).lower(), possible_names)), name_1)
 	if name_2:
 		name_2 = name_2.replace(',', '.')
-		name_2 = [next(iter(difflib.get_close_matches(str(name_2).lower(), possible_names)), name_2)]
+		name_2 = next(iter(difflib.get_close_matches(str(name_2).lower(), possible_names)), name_2)
 
 	print(f'Player_1: {name_1} -> {score_1}\nPlayer_2: {name_2} -> {score_2}\nServing: {"name_1" if serving_1 else "name_2"}\n')
 	return name_1, name_2, serving_1, score_1, score_2
