@@ -96,7 +96,7 @@ def main():
 
 				## text detection
 				## custom_config = r'--oem 3 --psm 6'
-				custom_config = r'--oem 3 --psm 4'
+				custom_config = r'--oem 1 --psm 4'
 				result = pytesseract.image_to_string(frame_thresh, config=custom_config)
 				name_1, name_2, serving_1, score_1, score_2 = parse_result(result, possible_names)
 
